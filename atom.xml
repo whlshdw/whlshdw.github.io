@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nautilus</title>
+  <icon>https://whlshdw.github.io/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://whlshdw.github.io/"/>
+  <updated>2021-01-25T13:38:14.008Z</updated>
+  <id>https://whlshdw.github.io/</id>
+  
+  <author>
+    <name>whlshdw</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于如何快速从他人中接手工作这件事</title>
+    <link href="https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BB%8E%E4%BB%96%E4%BA%BA%E4%B8%AD%E6%8E%A5%E6%89%8B%E5%B7%A5%E4%BD%9C%E8%BF%99%E4%BB%B6%E4%BA%8B.html"/>
+    <id>https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BB%8E%E4%BB%96%E4%BA%BA%E4%B8%AD%E6%8E%A5%E6%89%8B%E5%B7%A5%E4%BD%9C%E8%BF%99%E4%BB%B6%E4%BA%8B.html</id>
+    <published>2021-01-25T03:38:03.000Z</published>
+    <updated>2021-01-25T13:38:14.008Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>长时间未接触工作，如何快速的上手asp相关工作？本篇文章将从鲸鱼的角度出发，带你熟悉如何从刚开始接受工作任务时的零信息，到完成工作的全过程。Let’s start.</p></blockquote><blockquote><p>接收任务  时间 1/13/21 15:51</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/2021/article01/01.jpg" alt="01"></p><p>微信接受到上司 A 任务。</p><p><img src="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/2021/article01/02.jpg" alt="02"></p><p>通过与上司 A 的简短语音沟通，获取信息如下：</p><ol><li><p><strong>大致局点信息：</strong>光明某局点；</p></li><li><p><strong>工作任务范围确认：</strong>只负责 OBS 升级任务，无额外工作；</p></li><li><p><strong>下一级任务联系人：</strong>政府行业组长 B 。</p></li></ol><p><code>工作任务范围确认 很关键，上司 A 是本人直属上级，目前只有他对本人有直接绩效考核，明确他委派任务范围，便可拒绝其余一干其余人物的额外任务</code></p><blockquote><p>对接组长 B  1/13/21 16:14</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/2021/article01/03.jpg" alt="03"></p><p>向组长 B 主动发起 简短的语音沟通了解情况，同时组长 B 将涉及本任务的干系人组建交流群。</p><p><img src="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/2021/article01/04.jpg" alt="04"></p><p>通过组长 B 处获取任务信息与资源如下：</p><ol><li><p>获取本任务的交流群：当前交流群人员，本人、组长B、工程师C、本任务项目经理 D（我司）</p></li><li><p>获取工程师 C 联系方式：本问题前期由工程师 C 处理，工程师熟知局点详细信息；</p></li><li><p>获取项目经理 D 联系方式：项目经理D，为本局点我司项目经理</p></li><li><p>获取任务委托关系：我司项目经理 D 接受到客户问题，委托任务于组长 B，组长 B 向上司 A 求助处理人员，上司 A 委托任务于本人处理。</p></li></ol><blockquote><p>对接项目经理 D </p></blockquote><p>任务详情联系人：某工程师 C</p><p>组件</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;长时间未接触工作，如何快速的上手
+        
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>F公司项目交付中的客户满意度管理研究</title>
+    <link href="https://whlshdw.github.io/F%E5%85%AC%E5%8F%B8%E9%A1%B9%E7%9B%AE%E4%BA%A4%E4%BB%98%E4%B8%AD%E7%9A%84%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html"/>
+    <id>https://whlshdw.github.io/F%E5%85%AC%E5%8F%B8%E9%A1%B9%E7%9B%AE%E4%BA%A4%E4%BB%98%E4%B8%AD%E7%9A%84%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html</id>
+    <published>2020-11-03T10:29:03.000Z</published>
+    <updated>2021-01-25T04:29:29.808Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文以F公司的项目交付过程为实践，有较强的应用性，对其他ASP公司在”工程类交付”售后服务的客户满意度管理提供了借鉴意义. 也算对自己做过的工作交一份做也吧，尽管现在看，感觉写的稀巴烂😂，见谅见谅 水平有限，本句更新于2021年1月25日</p></blockquote><center><big><b>摘要 </b></big></center><p>&emsp;&emsp;当下，随着信息科学技术的发展、企业流程再造加快，产品成本已经降到低点，当企业经营者对利润的追逐无法再从降低成本中获得满足后，便把目光朝向了客户。因此，培养客户满意度对于提高企业核心竞争力至关重要，客户是企业存在和发展的基础，市场竞争的本质是为客户的竞争。 以赢得更高的客户保留和盈利能力，必须开始重视客户需求，提供满足客户需求的服务，有效管理和培养客户关系，确保客户能从企业的商业合作中获得较高的满意度。</p><p>&emsp;&emsp;F公司为华为公司的信息技术服务合作伙伴，旗下工程师在华为公司协助与共同管理下，负责对华为授权区域的ICT的售后服务。本文以F公司工程师售后团队为SZ市HD大学建设云计算数据中心项目的整体售后服务过程为案例，阐述F公司在”工程类项目交付”售后服务过程中客户满意度管理的研究与分析。</p><p>&emsp;&emsp;本文以F公司的项目交付过程为实践，有较强的应用性对其他ASP企业在”工程类交付”售后服务的客户满意度管理提供了借鉴意义。</p><p><strong>关键词：</strong> 售后服务，项目交付，客户满意度</p><center><big><b>Abstract </b></big></center><p>&emsp;&emsp;Nowadays, with the development of science and technology and the accelerated pace of enterprise process reengineering, the cost has been reduced to a low point. When the managers’ thirst for profits cannot be satisfied from the reduction of cost, enterprises turn to customers.Therefore, the cultivation of customer satisfaction is crucial to the improvement of core competitiveness of enterprises. Customers are the foundation for the existence and development of enterprises, and the essence of market competition is the competition for customers.In order to win high customer retention and profitability, enterprises must pay attention to customer needs, provide satisfying and service, effectively manage and cultivate customer relations, and ensure that customers can obtain high satisfaction from various contacts of the enterprise.</p><p>&emsp;&emsp;F is huawei’s INFORMATION technology service partner. Its engineers, under the assistance and joint management of Huawei, are responsible for after-sales services of ICT in Huawei’s authorized areas.This paper takes the overall after-sales service process of F engineers’ after-sales team building a cloud computing data center for HD University in SZ city as a case, and expounds the research and analysis of CUSTOMER satisfaction management in the after-sales service process of “engineering project delivery” of F Company.</p><p>&emsp;&emsp;This paper insists on combining theory with practice and has strong applicability, which can effectively solve the problems existing in enterprises. It provides reference significance for F company and other ASP enterprises to manage customer satisfaction in the after-sales service of “engineering delivery”.</p><p><strong>Keywords：</strong>After sales service, project delivery, customer satisfaction management</p><h2 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h2><h3 id="一、研究背景"><a href="#一、研究背景" class="headerlink" title="一、研究背景"></a>一、研究背景</h3><p>&emsp;&emsp;随着信息科学技术的发展、企业流程再造加快，产品成本已经降到低点，当企业经营者对利润的渴求无法再从降低成本中获得满足后，企业就把目光转向了客户。因此，培养客户满意度对于提高企业核心竞争力至关重要，客户是企业存在和发展的基础，市场竞争的本质是为客户的竞争。 以赢得更高的客户保留和盈利能力，必须开始重视客户需求，提供满足客户需求的服务，有效管理和培养客户关系，确保客户能从企业的商业合作中获得较高的满意度。</p><p>&emsp;&emsp;F公司是华为在SZ市的一家授权服务伙伴公司，华为授权服务伙伴公司（autorized service partner），简称华为ASP，即通过华为合作伙伴体系的认证，获得华为ICT售后服务的代理资质。ASP公司的形成背景：”华为公司主动将其售后市场蛋糕切分出来，帮助或与其他公司共同组成华为ICT的售后生态体系，以便华为将核心生产力用于研发”。ASP公司招募工程师团队，旗下工程师在华为公司协助与共同管理下，代表原厂售后服务工程师，负责对华为的ICT产品的售后服务。F公司被华为授权的售后服务业务范围主要为：授权区域内企业存储、服务器、路由交换设备等ICT产品的硬件维护、设备健康检查、故障处理、备件更换，以及工程类项目交付、现场技术支持等。其中”工程类项目交付”售后服务过程中的客户满意度管理是本文的研究内容。</p><p>&emsp;&emsp;本文以F公司工程师售后团队为SZ市HD大学建设云计算数据中心项目的售后服务过程为案例，阐述F公司在”工程类项目交付”售后服务过程中客户满意度管理的研究与分析。</p><h3 id="二、研究意义"><a href="#二、研究意义" class="headerlink" title="二、研究意义"></a>二、研究意义</h3><p>&emsp;&emsp;市场竞争不断加剧以及和服务的极大丰富，特别是信息工具和渠道的快速发展，使得客户对同类ICT产品和售后服务的选择范围增大，选择能力提高，因而如何准确把握客户的需求并以最快的速度做出响应，即如何吸引并保留客户已成为当今企业竞争聚焦的关键问题。客户的满意就是企业效益的源泉，而是否拥有客户取决于企业与客户的关系状况，它决定着客户对企业的信任程度即忠诚度，而客户对企业忠诚度则由他们在消费由企业所提供服务过程中的体验和服务满意度来决定，客户满意程度越高，客户忠诚程度也就越高，企业竞争力就越强，市场占有率就越大，企业的投资风险就越小，回报率就越高。</p><p>&emsp;&emsp;为保持市场竞争性、鲜活性，华为公司将其产品的售后服务市场划分为不同份额，对几家合作伙伴公司进行招标，同时华为公司对ASP公司进行售后服务客户满意度考核，售后服务客户满意度直接决定ASP公司能否继续持有该片区域的售后服务授权份额。所以，作为华为合作伙伴的F公司，保证售后服务的客户满意度具有重要意义。</p><p>&emsp;&emsp;ASP公司项目交付的过程即是售后团队与业主深入交互的过程，客户最终对项目交付的满意度程不仅仅取决与项目交付产品的功能，还取决与他们对于目售后团队感知、项目运行过程是否满意。在各类的售后服务中，”工程类项目交付”的售后服务类型在现场服务的时间最长，最易引起客户感知，其对ASP公司与现场工程师的客户服务素质水平要求较高，如何在工程类项目交付中保持较高的客户满意度成为了一个值得思考问题。因此，项目交付中客户满意度管理问题的研究对ASP公司有重要的意义。</p><h3 id="三、研究方法"><a href="#三、研究方法" class="headerlink" title="三、研究方法"></a>三、研究方法</h3><h4 id="（一）个案法"><a href="#（一）个案法" class="headerlink" title="（一）个案法"></a>（一）个案法</h4><p>&emsp;&emsp;本文只涉及F公司一个案例，因而采用了个案研究法，先描述F公司”工程类项目交付”售后服务过程，再对项目交付过程的客户满意度管理问题分析研究。</p><h4 id="（二）文献研究法"><a href="#（二）文献研究法" class="headerlink" title="（二）文献研究法"></a>（二）文献研究法</h4><p>&emsp;&emsp;通过研读客户满意度管理类文献，学习客户满意度管理相关知识，在知网与万方下载客户相应期刊和论文，搜集整理客户满意度管理的相关研究资料，结合理论在F公司在”工程类项目交付”售后服务实际过程中的客户满意度问题进行分析与总结。</p><h3 id="四、研究内容"><a href="#四、研究内容" class="headerlink" title="四、研究内容"></a>四、研究内容</h3><p>&emsp;&emsp;本文分四个章节对F公司”工程类项目交付”中客户满意度管理问题进行研究，具体如下：第一章：绪论，介绍研究 F公司在项目售后服务过程中客户满意度管理问题的背景和意义，并对研究时所采用的具体研究方法进行阐述。第二章：理论基础，阐明客户满意度管理的有关概念和所具备的功能，重点介绍客户满意度管理的相关理论，为下文的研究奠定理论基础。第三章：案例分析，以F公司工程师售后团队为SZ市大学城某大学建设云计算数据中心项目的整体售后服务过程为案例，先从项目交付的基本情况介绍和项目交付服务流程两个方面进行介绍，再通过项目交付过程中的工程师团队遇到的实际问题与客户的直接反馈，总结分析出F公司在”工程类项目交付”中存在的客户满意度管理问题，根据总结出的问题，提出对应优化具体措施，有效保证在”工程类项目交付”售后服务过程中客户的满意度。第四章：结论，根据以上研究过程和内容做出总结。</p><h2 id="第二章-理论基础"><a href="#第二章-理论基础" class="headerlink" title="第二章 理论基础"></a>第二章 理论基础</h2><h3 id="一、客户满意"><a href="#一、客户满意" class="headerlink" title="一、客户满意"></a>一、客户满意</h3><h4 id="（一）客户满意概念"><a href="#（一）客户满意概念" class="headerlink" title="（一）客户满意概念"></a>（一）客户满意概念</h4><p>&emsp;&emsp;客户满意是一种主观的感知，即客户对某一特定购买期望得到满足的程度。<br>&emsp;&emsp;满意程度是客户感知效果和客户期望值的差异函数。若客户可感知效果低于期望，则客户不满；若客户可感知效果与期望相匹配，则客户满意；若客户可感知效果超过期望，则客户高度满意。因此，客户满意与否取决于客户在接受或服务之前的期望与其接受或服务之后的感知比较所产生的体验。</p><h4 id="（二）客户满意的特征"><a href="#（二）客户满意的特征" class="headerlink" title="（二）客户满意的特征"></a>（二）客户满意的特征</h4><p>&emsp;&emsp;满意是一种主观感知，是客户对企业提供的或服务的内容的价值判断或评价，客户满意主要表现为以下几个特征。</p><ol><li><p>主观性特征</p><p>客户感受对象是客观的，但满意是建立在对或服务的体验之上的，所以，满意与否具有强烈的主观色彩。</p></li><li><p>层次性特征</p><p>客户满意是客户对企业提供的或服务的心理评价，这种评价是多层次的，同时也具有多重指标。</p></li><li><p>动态性特征</p><p>由于客户需求具有变化性，客户满意也会相应发生变化。</p></li></ol><h3 id="二、客户满意度管理"><a href="#二、客户满意度管理" class="headerlink" title="二、客户满意度管理"></a>二、客户满意度管理</h3><h4 id="（一）客户满意度概念"><a href="#（一）客户满意度概念" class="headerlink" title="（一）客户满意度概念"></a>（一）客户满意度概念</h4><p>&emsp;&emsp;客户满意度，指客户在接受或购买某一服务时，客户感知的实际服务与客户期望中得到的服务的差值，客户满意度的公式体现为：客户满意度=客户信息感知-客户期望。</p><p>&emsp;&emsp;客户满意度意味着客户满意度很高，常用客户满意等级表示。客户满意等级指客户在购买或消费相应的或服务之后，心里产生的满足状态层次。心理教育学家研究认为，情感生活体验我们可以按梯级理论被划分成若干层次，相应地，可以把客户提供满意程度分成七个等级，它非常不满意，不满足，不满足，一般，满意，满意，非常满意。客户满意等级不是作为一个绝对概念，而是通过一个企业相对的概念，虽有等级之分，但界限较模糊。</p><h4 id="（二）客户满意度管理的概念"><a href="#（二）客户满意度管理的概念" class="headerlink" title="（二）客户满意度管理的概念"></a>（二）客户满意度管理的概念</h4><p>&emsp;&emsp;客户满意管理是指企业在生产活动中把客户满意作为管理的一个重要方面，运用各种有效的方式更好地留住顾客，创造更大的顾客价值。 以保持企业带来更多的利润和持续的竞争优势。同时，企业对客户服务满意度的追求，并不是盲目满足客户所有需求，而是通过企业最小的追逐成本去获得客户对企业服务的最大满意。</p><h4 id="（三）提高客户满意度的三个基本方向"><a href="#（三）提高客户满意度的三个基本方向" class="headerlink" title="（三）提高客户满意度的三个基本方向"></a>（三）提高客户满意度的三个基本方向</h4><p>&emsp;&emsp;从客户满意度的定义与公式”客户满意度=客户感知-客户期望”中，我们可以得出一个客户满意度管理模型。</p><p><img src="https://7.dusays.com/2020/11/05/263b27f67e4db.jpg" alt=" 图2-1 客户满意度管理模型"></p><p>&emsp;&emsp;从图2-1 客户满意度管理模型中，可以直观看出，降低客户期望，提高客户感知，妥善处理客户抱怨是提高客户满意度三个基本方向。</p><ol><li><p>降低客户期望的原则</p><p>①对客户过高的期望值表示理解，并为客户提供更多信息和解决方案，在双方理解的基础上相应降低客户的期望。</p><p>②少承诺多办事，企业的承诺对于客户来说是一个期望，办不到的事千万别承诺。</p><p>③客户的高期望要求不能满足时，不要生硬拒绝，要阐明理由，获得客户理解。</p></li><li><p>提高客户感知的指标</p><p> 客户的感知来源主要为客观指标与主观感受两方面。</p><p> ①客观指标，指项目质量，安全，进度，成本，等方面的硬性指标。</p><p> ②主观感受，指客户对项目实施的顺利程度与对交付人员态度等主观感知。</p></li><li><p>正确处理客户抱怨</p><p> 当受到客观条件限制而不能满足客户需求或由于疏忽导致客户不满时，须正确面对客户的抱怨，妥善处理。</p></li></ol><h3 id="三、相关理论基础"><a href="#三、相关理论基础" class="headerlink" title="三、相关理论基础"></a>三、相关理论基础</h3><h4 id="（一）双因素模型"><a href="#（一）双因素模型" class="headerlink" title="（一）双因素模型"></a>（一）双因素模型</h4><p>&emsp;&emsp;客户满意的双因素模型是美国心理学家赫兹伯格的双因素理论又称”激励保健理论（hygiene-motivational factors）”在客户满意上的运用。根据该理论，影响客户满意的因素可分为两类不同的性质：一类是保健相关因素，另一类是激励影响因素。保健因素是客户所期望的，没有满足的话，客户就不满意；激励因素是企业提供给客户后能让客户感到愉悦和满意的因素。这两类因素对客户满意度的影响是不同的。保健因素是避免客户不满意的因素，激励因素是使客户满意度提高的因素。没有提供保健因素，客户会很不满意；提供后，客户只是没有不满意，而并不代表很满意。反过来，企业若提供了激励因素，客户会很满意；若没有提供激励因素，客户只是没有很满意而已，而不会不满意。企业在保健因素上无论做得如何出色，客户只是没有不满意而已，并不会有很高的满意度。客户没有得到激励因素也并不会对企业产生怨恨，只是会感到有些遗憾而已，而这并不会导致客户的不满意。</p><p>&emsp;&emsp;双因素理论对于客户满意度管理的启示是：第一，只有属于激励因素的需求得到满足才能激发起客户的满意，不是所有；第二，保健因素不满足时将引起客户强烈的不满，但满足后也不一定会让客户满意；第三，保证客户保健因素需求得到满足，适当提供激励因素满足，可保持较高的客户满意度。</p><h4 id="（二）KANO模型"><a href="#（二）KANO模型" class="headerlink" title="（二）KANO模型"></a>（二）KANO模型</h4><p>&emsp;&emsp;受双因素理论的启发，日本管理学家加纳提出客户感知模型-KANO模型，KANO模型定义了客户需求三个层次：基本型需求、期望型需求和兴奋型需求，三种需求根据绩效指标分为基本因素、绩效因素和激励因素。</p><ol><li>基本型需求</li></ol><p>&emsp;&emsp;基本型需求是客户对企业提供的服务基本技术要求。这是客户认为服务”必须具有”的属性或功能。当基本要求不能满足时，客户会很不满；当基本要求得到满足时，客户也不会表现出满意，只是没有不满意。例如，客户进行购买品牌桶装水，希望水是纯净的、水桶是洁净的且能送到自己家门口等。对于客户而言，这些需求是理所当然满足的。</p><ol start="2"><li>期望型需求</li></ol><p>&emsp;&emsp;期望型需求体现的是更舒适、更快、更好的因素，是客户的满意状况与需求的满足程度成比例关系的需求。企业提供或提供的服务水平越高，客户满意度就越高，反之亦然。如果这些需求没有被满足，客户就会感觉到失望；如果这些需求得到合理的满足，客户不会有什么感觉；但这些需求如果被满足得更好，客户就会增加满意度。譬如，客户通过电话订购桶装水，而桶装水通常是六个小时后送到的，如果时间拖延太久，客户就会抱怨；如果时间不快不慢，客户则不会有什么反应；如果在很短的时间内送达，客户就会高兴。</p><ol start="3"><li>兴奋型需求</li></ol><p>&emsp;&emsp;兴奋型需求是指客户期待之外的需求，不能满足这类需求，对客户不会产生任何的消极影响；兴奋型需求一旦得到满足，客户则会表现出满意的态度。对于兴奋型型需求，需求的满足会客户会满意，得不到有效满足时，客户也不会有明显的不满意。</p><p>&emsp;&emsp;KANO模型理论对客户满意度管理的启示是：面对众多的客户需求时，企业可将需求按照KANO模型进行成三个层次，对需求满足进行排序，优先满足客基本需求与期望需求，最后满足兴奋型需求，KANO模型理论可让企业的服务资源力量对客户满意度的管理上获得得到合理分配。</p><h2 id="第三章-案例分析"><a href="#第三章-案例分析" class="headerlink" title="第三章 案例分析"></a>第三章 案例分析</h2><h3 id="一、F公司的简介"><a href="#一、F公司的简介" class="headerlink" title="一、F公司的简介"></a>一、F公司的简介</h3><p>&emsp;&emsp;F公司从2001年成为华为信息技术服务合作伙伴，其业务涉及ICT技术服务、IT开发运维、信息系统集成、软件外包等。</p><p>&emsp;&emsp;作为华为公司的信息技术服务合作伙伴，F公司旗下的工程师在华为公司协助与共同管理下，负责对华为授权区域的ICT的售后服务。授权业务范围主要包括：企业级存储、企业服务器、路由交换设备、硬件维护、备件更换、工程类项目交付、现场技术支持、设备健康检查等现场服务。图3-1为客户购买华为工程类项目交付售后服务的流程图。客户首先向华为公司发起售后请求，要求进行进现场技术服务。华为公司收到客户请求，生成电子流，根据客户的区域范围、技术服务要求选则符合要求的合作伙伴公司，进行服务任务委派，要求合作伙伴公司准备对应资源的工程师，同时对委派任务与合作伙伴公司工程师进行监管。合作伙伴公司收到委托，根据要求提供现场技术服务。</p><p><img src="https://7.dusays.com/2020/11/15/d42d3424b70c9.png" alt="图 3-1 F公司售后服务流程图"></p><h3 id="二、-HD大学云计算数据中心项目售后服务过程"><a href="#二、-HD大学云计算数据中心项目售后服务过程" class="headerlink" title="二、 HD大学云计算数据中心项目售后服务过程"></a>二、 HD大学云计算数据中心项目售后服务过程</h3><h4 id="（一）项目交付背景介绍"><a href="#（一）项目交付背景介绍" class="headerlink" title="（一）项目交付背景介绍"></a>（一）项目交付背景介绍</h4><p>&emsp;&emsp;在SZ市政府的大力支持下，HD大学进行智慧校园建设，使用云计算、虚拟化和移动互联网等新技术，以打造”智慧校园”为目标，以服务学校、服务学员、服务社会为方向，以深化应用、优化服务为核心，以业务协同、资源整合、信息共享为主线，打造统一、高效、智能的”智慧校园”。</p><h4 id="（二）项目交付基本情况介绍"><a href="#（二）项目交付基本情况介绍" class="headerlink" title="（二）项目交付基本情况介绍"></a>（二）项目交付基本情况介绍</h4><ol><li>项目建设内容</li></ol><p>&emsp;&emsp;本项目主要建设智慧校园的云数据中心的核心数据库、云存储、云主机和大数据平台，以及配备网络安全设备，通过建立核心业务系统的云计算基础架构，为校区教学和教务工作提供可靠高效的技术支撑平台。</p><ol start="2"><li>交付模式介绍</li></ol><p>&emsp;&emsp;HD大学通过投标选择华为公司的ICT产品，即使用华为的企业服务器、企业存储、路由交换设备、华为云计算产品方案，建设其智慧校园云数据中心。HD大学发起售后服务，再由华为委派到F公司，F公司派出工程师团队进行现场技术服务。</p><ol start="3"><li>现场技术服务委托内容介绍</li></ol><p>&emsp;&emsp;云数据中心的整体建设构成方案中，包括不限于华为云计算数据中心设备与软件，也有其他产商的设备软件，如深信服、绿盟、H5等，几家产商产品交织在一起，互相合作，组成了以华为云计算产品为核心的智慧校园云数据中心解决方案。华为售后现场技术服务的内容，根据客户下单委托服务条目执行，有指定性，并非所有现场华为产品。F公司工程师，根据华为委派时提供的BOQ（Bill of Quantity）,即工程量清单来获知现场技术服务委托内容。</p><center>表3-1 售后现场技术服务内容</center><table><thead><tr><th>序号</th><th>产品型号</th><th>产品类型</th><th>数量</th><th>居中对齐</th></tr></thead><tbody><tr><td>1</td><td>OceanStor SNS2248</td><td>交换机</td><td>4</td><td>硬件安装服务</td></tr><tr><td>2</td><td>RH2288HV3 大数据控制节点</td><td>服务器</td><td>15</td><td>硬件安装服务</td></tr><tr><td>3</td><td>RH2288HV3备份服务器</td><td>服务器</td><td>1</td><td>硬件安装服务</td></tr><tr><td>4</td><td>FusionCube 9000-机柜机箱套件</td><td>服务器</td><td>1</td><td>硬件安装服务</td></tr><tr><td>5</td><td>FusionCube 9000-管理&amp;计算节点</td><td>服务器</td><td>7</td><td>硬件安装服务</td></tr><tr><td>6</td><td>Kunlun 9008服务器</td><td>服务器</td><td>2</td><td>硬件安装服务</td></tr><tr><td>7</td><td>OceanStor 5300 V3存储</td><td>存储</td><td>1</td><td>硬件安装服务</td></tr><tr><td>8</td><td>OceanStor 18500 V3</td><td>存储</td><td>2</td><td>硬件安装服务</td></tr><tr><td>9</td><td>OceanStor 9000 V3R6 教学视频存储</td><td>存储</td><td>4</td><td>硬件安装服务</td></tr><tr><td>10</td><td>云计算-基础架构解决方案实施服务</td><td>软件</td><td>1</td><td>规划实施服务</td></tr></tbody></table><h3 id="三、-项目交付的服务流程"><a href="#三、-项目交付的服务流程" class="headerlink" title="三、 项目交付的服务流程"></a>三、 项目交付的服务流程</h3><h4 id="（一）全项目交付服务流程介绍"><a href="#（一）全项目交付服务流程介绍" class="headerlink" title="（一）全项目交付服务流程介绍"></a>（一）全项目交付服务流程介绍</h4><p>&emsp;&emsp;云计算数据中心项目的建设，从有意向建设到真正落地，完整的项目流程，一般会经历规划设计、工程交付、运营维护三个阶段，包括集成规划、POC测试、集成设计、工程交付、集成验证、业务发放、数据迁移、系统验收、系统维护9个模块，9个模块，细分出22个实施步骤。对于技术服务公司来说，这22个实施步骤涵盖了项目从售前的需求调研拓展到售后的落地验收，是一个工程类项目的生命周期。</p><p><img src="https://7.dusays.com/2020/11/15/9793f338fc848.png" alt="图3-2  项目交付流程图"></p><h4 id="（二）HD大学的项目交付过程"><a href="#（二）HD大学的项目交付过程" class="headerlink" title="（二）HD大学的项目交付过程"></a>（二）HD大学的项目交付过程</h4><p>&emsp;&emsp;本文研究的是售后的服务阶段，HD大学的云数据中心项目建设从发起售后服务申请开始，到F公司委派工程师到现场将项目落地的过程，经历集成设计、工程交付、集成验证、业务发放、系统验收、系统维护，共6个阶段。包括详细方案LLD（low level design）详细设计、工程勘测、硬件安装与配置、软件暗转与调试、软件联调测试、集成方案验证设计、集成验证测试、业务发放部署、系统试运行、验收方案设计、验收测试、日常操作维护、工程交付与维护13个步骤。</p><p><img src="https://7.dusays.com/2020/11/15/4ddcafa914439.png" alt="图3-3 HD大学云数据中心建设的项目流程"></p><ol><li>集成设计过程</li></ol><p>&emsp;&emsp;规划设计过程是工程类项目售后服务最开始的阶段段，规划设计包括：</p><p>&emsp;&emsp;① 现场资源调研、规划信息收集</p><p>&emsp;&emsp;（1）熟悉现场工作环境，包括作业位置、作业时间、注意事项、客户对接人。</p><p>&emsp;&emsp;（2）调研客户现有的网络，包括现存设备、网络拓扑、新旧数据中心关系。</p><p>&emsp;&emsp;（3）项目时间节点确认，包括开始、测试、业务联调、上线、验收。</p><p>&emsp;&emsp;（4）方案参数收集，包括设备&amp;线缆布置、IP要求、设备命名、容量需求。</p><p>&emsp;&emsp;② 详细实施方案设计</p><p>&emsp;&emsp;（1）项目时间计划表排列，依照客户时间节点，排列倒推时间计划表。</p><p>&emsp;&emsp;（2）依照收集信息，进行实施方案的设计，输出初版售后实施方案。</p><p>&emsp;&emsp;（3）通过与客户进行沟通初版实施方案，确定了终稿实施方案，内容包括设备&amp;线缆部署位置、IP规划、设备命名规划、容量规划。</p><ol start="2"><li>工程交付过程</li></ol><p>&emsp;&emsp;① 设备工程安装</p><p>&emsp;&emsp;（1）依照设备布放规划，将设备安装到对应位置。</p><p>&emsp;&emsp;（2）依照线缆布放规划，布置对应线缆。</p><p>&emsp;&emsp;② 软件安装与调试</p><p>&emsp;&emsp;（1）依照规划参数，安装华为云计算平台相关软件。</p><p>&emsp;&emsp;（2）华为云计算平台各部件内调试。</p><p>&emsp;&emsp;③ 进行软件联合调试测试，华为云计算平台各部件之间联合调试。</p><ol start="3"><li>集成验证过程</li></ol><p>&emsp;&emsp;① 集成方案验证设计，集成验证方案制定，指华为云平台和其他产商设备、 现有业务应用的整体性验证方案，与客户共同定义验证策略，制定验证策略。</p><p>&emsp;&emsp;② 集成验证测试，按照验证策略，进行集成验证测试，测验结果提交验证测试报告。</p><ol start="4"><li>系统验收过程</li></ol><p>&emsp;&emsp;① 验收方案设计，结合产品功能与客户共同制定验收方案。</p><p>&emsp;&emsp;② 验收测试</p><p>&emsp;&emsp;（1）根据验收方案，对平台进行验收项目的测试，输出验收测试报告。</p><p>&emsp;&emsp;（2）系统验收标志云计算中心建设完成，正式投放用户，上线使用。</p><ol start="5"><li>系统维护过程</li></ol><p>&emsp;&emsp;① 日常操作维护，工程师针对客户进行日常操作维护与相关注意事项培训。</p><p>&emsp;&emsp;② 工程交付与转维</p><p>&emsp;&emsp;（1）转交相关工程材料与云平台维护材料。</p><p>&emsp;&emsp;（2）客户接管平台的日常使用与维护。</p><h3 id="四、HD大学项目交付过程的客户满意度问题"><a href="#四、HD大学项目交付过程的客户满意度问题" class="headerlink" title="四、HD大学项目交付过程的客户满意度问题"></a>四、HD大学项目交付过程的客户满意度问题</h3><p>&emsp;&emsp;根据上述HD大学的云数据中心项目的项目交付过程的6个服务模块13个服务步骤展开研究，结合客户满意度理论分析服务中存在的客户满意度管理问题。</p><h4 id="（一）集成设计过程的客户满意度问题"><a href="#（一）集成设计过程的客户满意度问题" class="headerlink" title="（一）集成设计过程的客户满意度问题"></a>（一）集成设计过程的客户满意度问题</h4><p>&emsp;&emsp;通过在集成设计过程与客户针对售后方案进行深度交流后发现以下问题：</p><ol><li>项目周期问题</li></ol><p>&emsp;&emsp;客户对即将要交付的产品对交付周期低估，认为交付周期过长，产生不满情绪。</p><ol start="2"><li>产品的功能性期待落差问题</li></ol><p>&emsp;&emsp;由于对当前云平台技术的不了解，提出产品暂无法实现的功能性需求或较难实现的技术问题，,当被告知不能实现时，产生落差感。</p><ol start="3"><li>管理资源占用多质疑</li></ol><p>&emsp;&emsp;售前阶段未阐明华为云计算产品方案特性,在售后方案交流中，客户对管理资源的占用巨大表示出质疑。</p><h4 id="（二）工程交付过程的客户满意度问题"><a href="#（二）工程交付过程的客户满意度问题" class="headerlink" title="（二）工程交付过程的客户满意度问题"></a>（二）工程交付过程的客户满意度问题</h4><ol><li>上下电导致设备故障问题</li></ol><p>&emsp;&emsp;在工程交付过程中，多台设备仅因为上下电导致设备故障，虽然已经更换设备，但客户强烈不满。</p><ol start="2"><li>解决新产品需求问题</li></ol><p>&emsp;&emsp;客户提出新的产品需求，客户希望售后团队可在本次实施中帮助其新增上这个需求，满足新增需求需耗费售后团队大量的时间与人力。</p><ol start="3"><li>客户方工程师参与实施的要求</li></ol><p>&emsp;&emsp;客户提出在项目实施过程中，一名客户方工程师全程参与学习实施过程，以便后续顺利的接管平台的日常使用与维护工作。</p><ol start="4"><li>业务网络部署方式问题</li></ol><p>&emsp;&emsp;客户对云计算平台使用EIP（elasticity IP）的业务网络部署方式不满，希望通过IP直通方式满足他们应用使用习惯。</p><h4 id="（三）集成验证过程的客户满意度问题"><a href="#（三）集成验证过程的客户满意度问题" class="headerlink" title="（三）集成验证过程的客户满意度问题"></a>（三）集成验证过程的客户满意度问题</h4><ol><li>云平台与F5兼容性问题</li></ol><p>&emsp;&emsp;在集成验证过程中，遇到F5产商的负载均衡设备无法与华为云平台的虚拟机负载功能进行兼容问题，当前产品无法解决该问题。客户采购的F5的负载均衡设备目前无法使用，资源闲置，除F5兼容问题，云计算平台的其他核心功均验证正常实现。客户项目组网络科的老师对F5产品不能兼容的问题有较强不满情绪。针对兼容性问题与客户项目组系主任进行沟通交流，系主任认为由于云平台核心均能实现，F5兼容功能为非核心功能且后续可通过升级版本解决，对项目交付的整体情况较为满意，并同意在验证报告中签字。</p><h4 id="（四）系统验收过程的客户满意度问题"><a href="#（四）系统验收过程的客户满意度问题" class="headerlink" title="（四）系统验收过程的客户满意度问题"></a>（四）系统验收过程的客户满意度问题</h4><ol><li>综合布线界面争执问题</li></ol><p>&emsp;&emsp;系统验收过程中，F公司售后团队与代理商共同进行项目验收。关于机房设备线缆的综合布线与整理的工作界面问题引发了争执。代理商认为工程安装中应该包含设备综合布线整理的服务，实际上工程安装不包含综合布线服务。</p><h3 id="五、项目交付中客户满意度问题的优化措施"><a href="#五、项目交付中客户满意度问题的优化措施" class="headerlink" title="五、项目交付中客户满意度问题的优化措施"></a>五、项目交付中客户满意度问题的优化措施</h3><h4 id="（一）做好沟通管理"><a href="#（一）做好沟通管理" class="headerlink" title="（一）做好沟通管理"></a>（一）做好沟通管理</h4><p>&emsp;&emsp;对集成设计服务过程中：项目周期、产品的功能性期待落差、管理资源占用多的问题从客户满意度管理角度进行分析，3个客户抱怨问题有共性，即客户针对从售前阶或实际落地的方案的期待不一致。可增强通过沟通管理处理，通过合理的沟通，正确向客户阐明情况，得到客户理解。实施周期较长是因为项目较为复杂；功能性有些无法满足是因为技术暂不支持；资源占用较多，是为保障系统更高的可靠性和稳定性。</p><p>&emsp;&emsp;项目交付过程中，沟通起着重要作用，做好沟通管理可为项目交付减去很多麻烦，有助于了解客户期望，影响客户感知，并减少处理客户抱怨的难度。 沟通过程中，根据场景的不同注意使用不同的方式与技巧。</p><ol><li>沟通方式</li></ol><p>&emsp;&emsp;使用沟通管理方式的差异，会使得沟通产生不同的效果，其中当面沟通方式效果最佳，电话语音沟通方式效果其次，文件沟通方式效果最差。在项目交付过程中应以面对面沟通为主，即使用文件沟通信息时，也可以先进行面对面方式或语音方式沟通，以免文件沟通方式信息传达不准确。</p><ol start="2"><li>沟通技巧</li></ol><p>&emsp;&emsp;① 多角度及站在不同的角度看待问题，站在客户的角度思考问题，了解客户所思考的问题的出发点，有利于企业服务人员迅速找出解决问题的关键所在。</p><p>&emsp;&emsp;② 多层面沟通，与客户方不同层面的人员进行交流，上到客户项目经理下到各个监督人员，全方面的了解不同层次的需求。</p><p>&emsp;&emsp;③ 多时段沟通，除工作时间进行工作交流外，尽可能增加与客户交流的机会，增加彼此了解。</p><h4 id="（二）善于分析客户期望"><a href="#（二）善于分析客户期望" class="headerlink" title="（二）善于分析客户期望"></a>（二）善于分析客户期望</h4><ol><li>期望分析层次介绍</li></ol><p>&emsp;&emsp;对于工程交付阶段碰到到4个问题，先与客户进行深层次交流与沟通，后根据KANO模型理论进行客户期望分析，找出客户真正的需求。如图4-1，对售后交付团队来说，要保证重点需求，满足合理需求，消除延伸需求，使售后服务资源的合理分配。</p><p><img src="https://7.dusays.com/2020/11/15/8e52d226de6a8.png" alt="图4-1 客户需求层次图"></p><ol start="2"><li>问题分析消除延伸需求</li></ol><p>&emsp;&emsp;① 上下电导致设备故障问题属于重点需求，这属于客户的保健因素，重点需求的问题会引起的客户严重的不满情绪，需要马上解决，除更换服务器后需要找出原因，需给客户合理的技术解释。</p><p>&emsp;&emsp;② 客户方工程师参与实施与业务网络部署方式问题均属于合理需求，在保证重点需满足求前提下，满足客户合理需求。</p><p>&emsp;&emsp;③ 对于新增产品需求问题，为客户延伸需求，虽可实现但耗时费力，消除延伸需求，不予满足。</p><h4 id="（三）-客户满意度管理关键要素法"><a href="#（三）-客户满意度管理关键要素法" class="headerlink" title="（三） 客户满意度管理关键要素法"></a>（三） 客户满意度管理关键要素法</h4><p>&emsp;&emsp;对于云平台与F5兼容性问题进行分析，当项目中不可避免的且暂时无法通过现有手段解决的但未非核心的问题时，即便项目组中某些客户成员不认同，只获取客户项目组中关键的人物对事件的满意，既能把握项目交付的较高客户满意度。</p><p>&emsp;&emsp;项目交付过程中，因客观因素或既定暂时无法改变的因素，很难让所有的客户人员对我们的所有事情都满意。因此，售后服务人员需找到客户项目组中的关键人物，重点关注关键的人员和重要事的满意度情况，他们的满意度是项目交付整体满意的关键。</p><h4 id="（四）展现良好态度"><a href="#（四）展现良好态度" class="headerlink" title="（四）展现良好态度"></a>（四）展现良好态度</h4><p>&emsp;&emsp;对系统验收过程中综合布线界面争执问题分析，尽管综合布线非售后服务人员的服务范围的事情，合理向客户阐述合同界面。即便面对客户强压进行非合同界面的事情，也要心平气和，合理阐述界面问题，力求客户理解，要时刻展现好良好的态度，给客户良好感知。</p><h4 id="（五）将客户当成同事"><a href="#（五）将客户当成同事" class="headerlink" title="（五）将客户当成同事"></a>（五）将客户当成同事</h4><p>&emsp;&emsp;在服务过程将客户当成同事，无论售后服务人员还是客户，从项目维度上来讲是一个整体团队，有着共同的目标，即顺利且高质量的完成项目。因此，在遇到项目共同的难题时，应以优先解决问题为目的，充分合作，使项目完满完成。</p><h2 id="第四章-结论"><a href="#第四章-结论" class="headerlink" title="第四章 结论"></a>第四章 结论</h2><p>&emsp;&emsp;本文以F公司在HD大学实施”工程类项目”售后服务过程为对象，分析在项目交付过程中遇到的客户满意度的问题。针对这些问题根据客户满意度管理理论进行分析总结，提出了5个项目交付过程中可以提高客户满意的具体措施：做好沟通管理、善于分析客户期望、客户满意度管理关键要素法、始终展现良好态度、将客户当作同事。</p><p>&emsp;&emsp;客户满意度管理的具体措施在项目交付过程的合理应用，可在最大限度的减少项目团队与客户之间的冲突，增加客户对项目团队的信任感，为项目最终取得成功奠定基础。同时，客户满意度管理经验也随着公司项目交付团队过在项目交付中各环节所遇到问题被改进调整与总结，最后形成该公司独特的项目交付客户满意度管理模式，会对公司在未来越来越多的项目合作中发挥着重大作用。</p><p>&emsp;&emsp;最后，由于学生在专业知识的学习上还存在不足，也缺少客户关系管理工作方面的经验，对于 F公司在项目中中存在问题的研究可能还不太深入和完善，希望各位老师多提宝贵意见，学生在今后的学习中，一定努力钻研，继续提高。</p><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1]张艳莉.客户满意度管理在工程项目中的应用研究[J].科协论坛：下半月,2012,(8):121-123. DOI:10.3969j.issn.1007-3973.2012.08.072.</p><p>[2]曾康铭.2012年中国IT售后服务调查研究与设计[J].企业科技与发展,2012,(13):150-154. DOI:10.3969j.issn.1674-0688.2012.13.051.</p><p>[3]陈全.基于客户满意度的L公司售后服务管理研究[D].上海:华东理工大学,2016.</p><p>[4]刘雷,仲梁维,王庭辉.售后服务的信息化响应[J].企业管理,2013,(8):109-111. DOI:10.3969j.issn.1003-2320.2013.08.043.</p><p>[5] 栾港.客户关系管理理论与应用（第2版）(M).人民邮电出版社有限公司,2019-10-01.100-110</p><p>[6]李先国，曹献存.客户服务管理（第2版(M).清华大学出版社,2019-10-01.89-100</p><p>[7]周玲,刘洪.员工工作满意度研究综述[C].管理科学与系统科学研究新进展–第8届全国青年管理科学与系统科学学术会议论文集.2005:13-20.</p><p>[8]高学东,王艾.基于企业网络舆情的客户满意度分析及管理方法[J].运筹与管理,2020,29(7):232-239. DOI:10.12005orms.2020.0193.</p><p>[9]康建宏,王海虹,苗佳等.人力资源管理的新趋势[J].现代商业,2017,(31):66-67.DOI:10.3969j.issn.1673-5889.2017.31.033.</p><p>[10]邱彬,马田文,宋鹏等.试论激励在现代企业人力资源管理中的影响[J].人力资源管理,2017,(8):131-132.</p><p>[11]肖静.论激励在现代企业人力资源管理中的作用[J].企业文化(中旬刊),2018,(1):151.</p><p>[12]张泽群.A通讯公司人力资源管理改进研究[D].东华大学,2016.DOI:””.</p><p>[13]刘东佳.双因素理论在企业人力资源管理中的应用研究[J].中国集体经济,2017,(12):96-97.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本文以F公司的项目交付过程为实践
+        
+      
+    
+    </summary>
+    
+    
+      <category term="本科自学考试" scheme="https://whlshdw.github.io/categories/%E6%9C%AC%E7%A7%91%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95/"/>
+    
+    
+      <category term="毕业论文" scheme="https://whlshdw.github.io/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我来回答这36个问题</title>
+    <link href="https://whlshdw.github.io/%E9%80%9A%E5%90%91%E7%88%B1%E7%9A%8436%E4%B8%AA%E9%97%AE%E9%A2%98.html"/>
+    <id>https://whlshdw.github.io/%E9%80%9A%E5%90%91%E7%88%B1%E7%9A%8436%E4%B8%AA%E9%97%AE%E9%A2%98.html</id>
+    <published>2020-09-28T10:29:03.000Z</published>
+    <updated>2021-02-04T07:14:58.640Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题来源于纽约时报的一篇文章：《The 36 Questions That Lead to Love》。</p><table> <tbody><tr>    <td bgcolor="FAEBD7" ><p><b>In</b> Mandy Len Catron's Modern Love essay, "To Fall in Love With Anyone, Do This," she refers to a study by the psychologist Arthur Aron (and others) that explores whether intimacy between two strangers can be accelerated by having them ask each other a specific series of personal questions. The 36 questions in the study are broken up into three sets, with each set intended to be more probing than the previous one.</p><p><b>The</b> idea is that mutual vulnerability fosters closeness. To quote the study's authors, "One key pattern associated with the development of a close relationship among peers is sustained, escalating, reciprocal, personal self-disclosure." Allowing oneself to be vulnerable with another person can be exceedingly difficult, so this exercise forces the issue.</p><p><b>The</b> final task Ms.Catron and her friend try - staring into each other's eyes for four minutes - is less well documented, with the suggested duration ranging from two minutes to four. But Ms.Catron was unequivocal in her recommendation. "Two minutes is just enough to be terrified," she told me. "Four really goes somewhere." </p><b>译文：</b><p>曼迪·莱恩·卡特隆(Mandy Len Catron)为"现代爱情"专栏写了一篇文章《如何快速与陌生人相爱》，她在文中提到心理学家阿瑟·亚伦(Arthur Aron)等人的研究成果：两个陌生人之间的亲密关系或许可以通过彼此询问一些特别的个人化问题而快速升温。这36个问题分为三组，一组比一组来得寻根究底。</p><p>这个理论的核心是，共同的脆弱能促进亲近感。这项研究的作者们称："同伴之间发展亲密关系的关键模式在于持续、逐步升级、相互且个人化的袒露自我。"允许自己和另一个人共享脆弱可能非常困难，下面这个练习能迫使你做到这一点。</p><p>卡特隆和她的朋友在文中尝试的最后一件事是彼此对视四分钟，这个过程没有被详细记录（其实可以从两分钟到四分钟不等）。但是卡特隆毫不迟疑地推荐这件事。"两分钟的效果已经很惊人了，"她告诉我，"四分钟真的非常有效。"</p></td> </tr></tbody></table><table>  <tr> <h2><font weight="700" size="5" face="黑体" color="green"></font><b><big>Question</big></b></h2></tr><p><big>问题有36题，分成3个部分。</big></P></table><table>  <tr> <h3><font weight="700" size="4" face="黑体" color="black"></font>第一部分</h3></tr></table><table border="1" bgcolor="B0E0E6"><tr><td><b>1.The choice of anyone in the world, whom would you want as a dinner guest?</b><br>如果可以选择世界上的任何人，你会选择谁当作你的晚餐客人？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1"  bgcolor="B0E0E6"><tr><td><b>2. Would you like to be famous? In what way? </b><br>你想要出名吗？在哪些方面出名？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1"  bgcolor="B0E0E6"><tr><td><b>3. Before making a telephone call, do you ever rehearse what you are going to say? Why?</b><br>在你打电话之前，你会排练你即将说的话吗？为什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1"  bgcolor="B0E0E6"><tr><td><b>4. What would constitute a "perfect" day for you?</b><br>对你而言，完美的一天什么是怎么样的？</br></td></tr></table><big><b>鲸鱼:</b></big><p>“🎵。。。早上好，今天9月28日，XX市天气晴，气温19摄氏度，湿度适宜，为您播放昨日新闻。。。”随着轻柔悦耳音乐声由小到大的响起，智能管家开始播报新闻。窗帘缓缓自动打开，亮光照进屋子，慢慢睁开眼，申一个懒腰，揭开被子半个角坐直，轻轻推推旁边，一起洗漱，系好鞋带，出门晨跑。吃完早饭，上午各自看自己的书，午饭后，坐在沙发上聊聊天，逗逗猫，下午各自做自己的事情。晚饭后，压压马路，或者看场电影。晚上适当的运动后聊聊天，然后睡觉。</p><table border="1"  bgcolor="B0E0E6" ><tr><td><b>5. When did you last sing to yourself? To someone else?</b> <br>你最后一次为自己唱歌是什么时候？最后一次为别人唱歌呢？</br></td></tr></table><big><b>鲸鱼:</b></big><p>① 早上起不来床的时候就会对自己唱歌：起来！② 郑州算吗。不喜欢KTV，小时候映象KTV很奢靡，去的都是坏孩子，成年后发现没有好与坏，只有满足or不满足。想也没想就去情况很少，以前不会，现在也不会。</p><table border="1" bgcolor="B0E0E6"><tr><td><b>6. If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want?</b> <br>如果你能活到90岁，而且可以在你人生的后60年拥有你30岁的身体，或者是30岁的大脑，你会选择哪个？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="B0E0E6"><tr><td><b>7. Do you have a secret hunch about how you will die?</b> <br>你有没有预想过你会怎样死去？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="B0E0E6"><tr><td><b>8. Name three things you and your partner appear to have in common.</b><br>说出三个你和你的搭档的共同点。</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="B0E0E6"><tr><td><b>9. For what in your life do you feel most grateful?</b><br>在你的生命中，你最感激的是什么？</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="B0E0E6"><tr><td><b>10. If you could change anything about the way you were raised, what would it be?</b><br>如果你可以改变任何你成长的足迹，你会改变什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="B0E0E6"><tr><td><b>11. Take four minutes and tell your partner your life story in as much detail as possible.</b><br>用4分钟，告诉你的搭档你的故事，尽量多的细节。</br></td></tr></table><big><b>鲸鱼:</b></big><p>2020年，沉淀，悟懂了很多事情。君若想听，唔愿与尓详述。</p><table border="1" bgcolor="B0E0E6"><tr><td><b>12. If you could wake up tomorrow having gained any one quality or ability, what would it be? </b><br>如果明天一觉醒来就能拥有某种才能或品质，你希望那会是什么呢？</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table>  <tr> <h3><font weight="700" size="4" face="黑体" color="black"></font>第二部分</h3></tr></table><table border="1" bgcolor="FFE4B5"><tr><td><b>13. If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know? </b><br>如果有一个水晶球可以告诉你关于自己、人生，未来乃至任何事情的真相，你最想知道哪一个？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFE4B5"><tr><td><b>14. Is there something that you've dreamed of doing for a long time? Why haven't you done it? </b><br>有没有一件事情是你一直梦想要做的？为什么没有做？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFE4B5"><tr><td><b>15. What is the greatest accomplishment of your life? </b><br>你人生中最大的成就是什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答... <table border="1" bgcolor="FFE4B5"><tr><td><b>16. What do you value most in a friendship?</b><br>在一段友谊之中你最珍视的是什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFE4B5"><tr><td><b>17. What is your most treasured memory?</b><br> 你最珍惜的回忆是什么？</br></td></tr></table><big><b>鲸鱼:</b></big><p><strong>最珍惜的回忆是一碗猪肉汤，每每回忆心里都有一股暖流。</strong> 小学1年级，特别喜欢夏季的雨天，雨越大越开心，最爱黑云密布的倾盆大雨，那天中午正有此雨，光着脚丫冲进雨中，在学校的草坪上疯一般的跑呀跳呀，脚踏着水坑啪嗒啪嗒，感受着身体每一个部分被雨水不断拍打冲刷。正闹着呢，被一个老师大声喝止了，我被叫进他的办公室，当时害怕极了，靠着墙，不敢抬头。那时虽然野，但学生总归会有些怕老师，何况是我二叔。他把门关上，没说责备的话，给了我一条毛巾，指了指桌子上的猪肉汤让我喝，然后转身进办公室后面，拉上帘子午休了。中午为了淋雨，没回家，肚子确实很饿了，好大一份嘞，(╯▽╰ )好香~~，都是给我的吗，也不敢问，刚开始也不敢吃，后来实在馋的不行，就想吃一点点，结果没忍住吃完了。那是我吃过最好吃的猪肉汤了，后来知道那个二叔是我爸，总有一阵感动，在那时候自己也曾被父爱包裹过啊。</p><table border="1" bgcolor="FFE4B5"><tr><td><b>18. What is your most terrible memory?</b><br>你最糟糕的回忆是什么？</br></td></tr></table><big><b>鲸鱼:</b></big><p><strong>最糟糕的回忆是在旁边看着一桌“陌生人”用餐，记不得都有谁，也记不得是否在哭。</strong> 记忆没出错的话，是5岁的那年，离开原先的村子，离开哥哥姐姐们，被带到“应该”属于我的村子，”陌生人”的养熟策略让我与先前的世界完全隔离。离饭桌不远有张长凳，记得饭桌那边好明亮好热闹，记得长凳上好暗好冷。</p><table border="1" bgcolor="FFE4B5"><tr><td><b>19. If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?</b><br>假设你在一年后会死去，你会怎样改变自己的生活？为什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFE4B5"><tr><td><b>20. What does friendship mean to you?</b><br> 友谊对于你来说意味着什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFE4B5"><tr><td><b>21. What roles do love and affection play in your life?</b><br> 爱与情感在你生活中扮演着什么样的角色？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFE4B5"><tr><td><b>22. Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.</b><br>  告诉对方他/她的五个优点。</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="FFE4B5"><tr><td><b>23. How close and warm is your family? Do you feel your childhood was happier than most other people's?</b><br> 你的家人之间关系是否亲密而温暖，你觉得自己的童年比其他人更快乐吗？</br></td></tr></table><big><b>鲸鱼:</b></big><p>① 在这之前没心没肺的活着已经很久了，很难真正的体会到别人给与的温暖，也不会制造温暖去温暖别人。现在想想，自己也是被包裹着的小孩，不知情罢了。② 5岁前的记忆我忘了，应该很快乐吧，5岁到12岁的记忆中快乐的事是回到先前的村子。心智开的比大部分人晚，没心没肺的其实也很开心。</p><table border="1" bgcolor="FFE4B5"><tr><td><b>24. How do you feel about your relationship with your mother?</b><br> 你怎样看待你和你母亲的关系？</br></td></tr></table><big><b>鲸鱼:</b></big>我看待母亲的关系分成几个阶段，按照年龄来分吧<p>8岁，二楼，下午的阳光，</p><table>  <tr> <h3><font weight="700" size="4" face="黑体" color="black"></font> 第三部分</h3></tr></table><table border="1" bgcolor="FFC0CB"><tr><td><b>25. Make three true "we" statements each. For instance, "We are both in this room feeling ... </b><br> 每人用"我们"造三个句子，比如，"我们俩在屋子里，并且都觉得..."</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFC0CB"><tr><td><b>26. Complete this sentence: "I wish I had someone with whom I could share ... " </b><br> 完成这个句子："我希望有这么一个人，我可以和他/她分享..."</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="FFC0CB"><tr><td><b>27. If you were going to become a close friend with your partner, please share what would be important for him or her to know. </b><br>  假如你即将和你的搭档成为很好的朋友，告诉你的搭档一个他/她需要知道的事情。</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="FFC0CB"><tr><td><b>28. Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you've just met. </b><br>告诉你的搭档你欣赏他/她的一点。注意：说一些你不会告诉一个陌生人的事情（不要停留在表面）。</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="FFC0CB"><tr><td><b>29. Share with your partner an embarrassing moment in your life. </b><br>告诉你的搭档你经历过的一个尴尬瞬间。</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFC0CB"><tr><td><b>30. When did you last cry in front of another person? By yourself?</b><br>你最后一次在别人面前哭是什么时候？最后一次自己一个人哭呢？</br></td></tr></table><big><b>鲸鱼:</b></big><p>① 大学三年级，福州，冰棺前。 她是我在这个村子最熟悉的人，那段时间里，只有跟她一块我才能入睡，她会她用的零花钱给我买鸡腿。她的房间总很黑，从不点灯，那天晚发了个朋友圈，两个小孩躺着在看星星，就像我和哥哥小时候在她房间里看着屋顶，发完后哭了。以前大脑只要轻轻一想就可以听见她喊我名字的声音，只有她会喊的名字，现在用力想啊，也想不起来现在她的声音。 ② 大学三年级寒假，深圳，宿舍。记得当时是为了备考吧，一个人很早就到校了，在宿舍看星际穿越，四维空间的他用摩尔斯电码敲出stay后，父亲还是走了，他怒锤书柜大喊stay的场景哭了。</p><table border="1" bgcolor="FFC0CB"><tr><td><b>31. Tell your partner something that you like about them already.</b><br>告诉你的搭档，他/她的什么品质让你欣赏/倾心。</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFC0CB"><tr><td><b>32. What, if anything, is too serious to be joked about?</b><br>你觉得什么东西是严肃到不能开玩笑的，假如有的话？</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...<table border="1" bgcolor="FFC0CB"><tr><td><b>33. If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven't you told them yet?</b><br>假设你今晚会死，并且没有任何可以和别人交流的机会，你最后悔没有告诉别人什么事情？为什么你没有告诉那些人？</br></td></tr></table><p><big><b>鲸鱼:</b></big><br>等待回答…</p><table border="1" bgcolor="FFC0CB"><tr><td><b>34. Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?</b><br>假设你拥有的全部东西都在你的房子里，现在房子着了火，救出家人和宠物之后，你还有机会安全地冲进去最后一次，取出最后一件东西，你会拿什么，为什么？</br></td></tr></table><big><b>鲸鱼:</b></big>等这个问题我想了很久，<table border="1" bgcolor="FFC0CB"><tr><td><b>35. Of all the people in your family, whose death would you find most disturbing? Why?</b><br>在你的家人中，谁去世了会令你最难过，为什么？</br></td></tr></table><big><b>鲸鱼:</b></big><p>母亲。性格的原因，虽然很难与她建立起无缝的亲密，但多年的抚养和相处，情感也渐渐融入到骨头。若她真的离开，我会很难过。</p><table border="1" bgcolor="FFC0CB"><tr><td><b>36. Share a personal problem and ask your partner's advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.</b><br>告诉你的搭档一个私人问题，并且向他/她寻求建议。然后问你的搭档，他/她觉得你是怎样看待这个问题的。</br></td></tr></table><big><b>鲸鱼:</b></big>等待回答...]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;问题来源于纽约时报的一篇文章：《The 36
+        
+      
+    
+    </summary>
+    
+    
+      <category term="心理学" scheme="https://whlshdw.github.io/categories/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
+    
+    
+      <category term="爱情" scheme="https://whlshdw.github.io/tags/%E7%88%B1%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>癞蛤蟆的天鹅肉食谱</title>
+    <link href="https://whlshdw.github.io/%E7%99%9E%E8%9B%A4%E8%9F%86%E7%9A%84%E5%A4%A9%E9%B9%85%E8%82%89%E9%A3%9F%E8%B0%B1.html"/>
+    <id>https://whlshdw.github.io/%E7%99%9E%E8%9B%A4%E8%9F%86%E7%9A%84%E5%A4%A9%E9%B9%85%E8%82%89%E9%A3%9F%E8%B0%B1.html</id>
+    <published>2020-06-29T10:29:03.000Z</published>
+    <updated>2020-11-15T19:54:37.988Z</updated>
+    
+    <content type="html"><![CDATA[<center><h1>《癞蛤蟆的天鹅肉食谱》</h1></center> <h5>没有人可以告诉你答案，没有人可以帮助你获取，只有你自己</h5><p>为什么只谈梦不敢想？为什么要读书？你想得到什么？你想过怎样的生活？</p><p>你只有亲眼见到那个美丽的蛋糕，闻到过它诱人的香气，并见到别人吃下去能长生不老，之后，你才会拼命努力想要得到它。</p><p>这个蛋糕是<strong>自我效能</strong>，我必须实现跨越，给自己一剂强心剂，一事成百事成。</p><p><strong>延迟满足</strong></p><p>1、……</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;center&gt;&lt;h1&gt;《癞蛤蟆的天鹅肉食谱》&lt;/h1&gt;&lt;/ce
+        
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我要读研究生这件事</title>
+    <link href="https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%92%B1%E8%A6%81%E8%80%83%E7%A0%94%E8%BF%99%E4%BB%B6%E4%BA%8B.html"/>
+    <id>https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%92%B1%E8%A6%81%E8%80%83%E7%A0%94%E8%BF%99%E4%BB%B6%E4%BA%8B.html</id>
+    <published>2020-06-05T16:00:00.000Z</published>
+    <updated>2021-01-13T15:52:56.131Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h3><p>萌生考研的想法是在2018年，想通过考研，登上一座远洋船走遍南北极，走遍四大洋，远离人群的喧嚣，见识宽广的海洋。好想逃离，逃开现有的一切关系，那时的自己心中缺少一样东西，跟任何人相处都不会真正的愉快。2019年咱更加确定了自己要逃离的心，写下了下图这句话，初步决定在2020年脱产参加考试——海洋学院航海专业。咱称之为梦想。</p><p><img src="C:%5CUsers%5Cqiumu%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210113221940928.png" alt="image-20210113221940928"></p><p>2019年6月认识了一个人，她的横冲直撞，肆无忌惮，在咱心中留下了深刻影响，经过一段时间的相处，发现这位姑娘与咱有着些共同的爱好，她生气发脾气的时候不就是咱心里的那个自己吗，不加掩饰的释放，但这份不掩饰的纯真在当下的人人都含蓄说好话社会是受排挤的，下意识的就想呵护她那份天真，不可否认，咱喜欢上了这位率真如小孩版的姑娘。2020年的春节疫情隔离期间，咱与她的心相互靠近着，彼此分享着儿时故事与当下日常，即使不说话也不愿意把电话挂掉，荷尔蒙的神奇魔力啊。第一次动心的甜蜜，第一次跟女孩子说爱，第一次跟女孩子谈性，第一次为女孩子唱歌，很多普普通通的第一次，咱心动了。</p><p>月色很美，心在跳。咱突然感觉自己内心缺失的部分填充进入了一些东西，咱突然想起《小王子》的中的一句话，“ 如果不去遍历世界，我们就不知道什么是我们的精神和情感的寄托，但我们一旦遍历了世界，却发现我们再也无法回到那美好的地方去了。当我们开始寻求，我们就已经失去，而我们不开始寻求，我们却根本无法知道自己身边的一切是如此可贵。” 在结束与她通话的某一刻，咱感受到了当下的可贵。那一晚，彻夜未眠的思索，思索这位姑娘未来的所有可能方案。咱，不想远行了。</p><p>“我觉你做什么都会成功的”，跟姑娘说了咱的方案，姑娘其他说了啥记不得了，但这句温柔的信任深深的印在了心里。它犹如一滴生命之泉，滴落受过太多挫折已经接近自我放弃的干枯世界的种子上，这枚种子发芽了。</p><h3 id="决定考研了"><a href="#决定考研了" class="headerlink" title="决定考研了"></a>决定考研了</h3><p>从她身上学习了不自我设限，为了更清楚的了解自己，决定考心理学。话不多说，先与行，中间诸多曲折，自思量，时间不会重来，时间值得认真去对待，不再有小孩心态，认为还会在重复，事情值得认真对待。希望能参与你的痕迹。</p><p>写于2020年6月6日</p><h3 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h3><p>6月24号晚-深圳机场，6月25日，6月26日，6月27日早-郑州机场。</p><p>7月3日报了众学简块 培优全程——苏州大学</p><p>7月15号开始就没有在参与工作</p><p>8月4号正式请假</p><p><img src="C:%5CUsers%5Cqiumu%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210113232135832.png" alt="image-20210113232135832"></p><p>9月16号换校区——广州大学</p><p>10月1日-18日-早晨——自我放弃中，刷遍了动漫，漫画，连续躺床，玩博客，不学习。</p><p>10月18日——给袁阿姨打了个电话。“死都要上，不能放弃！” 第一次 长辈这么坚定的让咱去做一件事情。咱会永远记住这一天。</p><p>11月28-12月8日——自我放弃中，天气冷躺床上，看漫画，玩手机，博客，玩一切没有那么好玩的东西，望着电脑屏幕的倒计时，就是不学习。</p><p>12月9日，开始觉醒学习，这天对咱很特别，是咱身份证上的生日。一直到12月25号晚，26日考研，每日约睡4.5h，番茄时间8+h。但为时已晚，补单词，长难句也不明了，政治未背诵，专业课未背牢靠，已经全部忘记。</p><h3 id="考研结束"><a href="#考研结束" class="headerlink" title="考研结束"></a>考研结束</h3><p>12月27日11点29分，提前一分钟交了专业课的卷子。卷子写到最后，字迹扭曲，绞尽脑汁也编不出来的感觉，在考场上如坐针毡，心中各种痛恨自己的不努力。</p><p>结束了一个阶段。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="生活" scheme="https://whlshdw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>决定考研了</title>
+    <link href="https://whlshdw.github.io/%E5%86%B3%E5%AE%9A%E8%80%83%E7%A0%94.html"/>
+    <id>https://whlshdw.github.io/%E5%86%B3%E5%AE%9A%E8%80%83%E7%A0%94.html</id>
+    <published>2020-06-05T16:00:00.000Z</published>
+    <updated>2021-01-13T14:01:41.251Z</updated>
+    
+    <content type="html"><![CDATA[<p>从你身上学习了不自我设限，为了更清楚的了解自己，决定考心理学。话不多说，先与行，中间诸多曲折，自思量，时间不会重来，时间值得认真去对待，不再有小孩心态，认为还会在重复，事情值得认真对待。希望能参与你的痕迹。</p><p>——20200606</p><p>2021年1月13日记录</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;从你身上学习了不自我设限，为了更清楚的了解自己，决定考心理
+        
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="生活" scheme="https://whlshdw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>布鲁斯问卷</title>
+    <link href="https://whlshdw.github.io/%E5%B8%83%E9%B2%81%E6%96%AF%E9%97%AE%E5%8D%B7.html"/>
+    <id>https://whlshdw.github.io/%E5%B8%83%E9%B2%81%E6%96%AF%E9%97%AE%E5%8D%B7.html</id>
+    <published>2020-05-01T16:00:00.000Z</published>
+    <updated>2020-11-24T11:21:16.939Z</updated>
+    
+    <content type="html"><![CDATA[<p><b>背景：</b></p><p>普鲁斯特问卷是一种社会调查问卷。起初是一种学术研究工具，十九世纪欧洲很多国家搞社会学、人类学或心理学研究的人，在面对社会不确定人群做调查时，会使用这个问卷。问卷的题目和数量并不固定，但内容大致相同，主要针对答卷人的价值观、人生观、哲学思想、生活经历和经验等方面来进行调查，有时涉及一些个人爱好，不大涉及私密信息（姓名住址血型社会保险号等等）、客观条件信息（学历收入居住地国籍种族等）和政治观点。搞研究的人通过这个方式从人群中获取研究样本，从中得到发现或归纳出理论，也可以为已有理论取得数据支持。</p><p>普鲁斯特是法国著名作家，问卷以他的名字命名，但问卷不是他发明的，甚至在他出生前就已经存在了，此类问卷因为他的两次回答而声闻于学术研究圈之外，为普通人所瞩目，于是用他的名字命名。</p><p>问卷的特点是每个题都是简答题，没有任何标准答案，也没有可供选择的项目（不给选项意味着不限制你的思考和发挥）来暗示或对照，你只能自己思考然后自己措辞来回答。它的问题多半都是纯个人意义的，不具备普遍指向，所以你不需要考虑“怎样答才算政治正确”“怎样答符合普适价值取向”“怎样答才能让别人赞许”等等因素，从而真实准确地反映自己的内心。</p><p>自己的思想和价值观，自己通常是明白的，但不是那么清晰，回答这种问卷，对自己也是一个梳理和观察，类似于一次内省式的反思。然而由于题目本身缺乏清晰的指向性，很多人答完题之后也未必就能对自己形成一个清晰条理的自我认识——那些行为和偏好，表面上是什么，自己清楚，背后的动因则未必明白。只有让专业的学者去通盘考虑这些题目反映出来的人格，才会做出大致合理的归纳判断。</p><p>个人出于兴趣而非学术研究目的来答卷，每隔几年重新回答一次，然后对照前一份或前几份来看，能看出自己这些年来的变化，是一个直观的自我认知的途径。普鲁斯特就回答过两次，全世界对此有兴趣的人都会对照他的两次答案来分析了解一些情况。</p><p>最重要的：问卷并不评价任何被调查者，答题人自己也不需要评价自己，你只需认识你自己就够了。如果你看到了其他人的答案，发现了自己与别人的不同，也没有哪一种偏好或特质是好的或坏的、高的或低的，它们只是彼此不同而已。</p><p>布鲁斯问卷：</p><p>01.你认为最理想的快乐是怎样的？</p><p>02.你最希望拥有哪种才华？ </p><p>03.你最害怕的是什么？          </p><p>04.你目前的心境怎样？             </p><p>05.还在世的人中你最钦佩的是谁？            </p><p>06.你认为你最伟大的成就是什么？         </p><p>07.你自己的哪个特点让你最觉得痛恨？         </p><p>08.如果你能选择的话，你希望让什么重现？   </p><p>09.你最痛恨别人的什么特点？    </p><p>10.你最珍惜的财产是什么？ </p><p>11.你最奢侈的是什么？</p><p>12.你认为程度最浅的痛苦是什么？</p><p>13.你认为哪种美德是被过高的评估的？  </p><p>14.你最喜欢的职业是什么？  </p><p>15.你对自己的外表哪一点不满意？  </p><p>16.你本身最显著的特点是什么？  </p><p>17.还在世的人中你最轻视的是谁？ </p><p>18.你最喜欢男性身上的什么品质？ </p><p>19.你使用过的最多的单词或者是词语是什么？ </p><p>20.你最喜欢女性身上的什么品质？ </p><p>21.你最伤痛的事是什么？                       </p><p>22.你最看重朋友的什么特点？            </p><p>23.你这一生中最爱的人或东西是什么？  </p><p>24.你希望以什么样的方式死去？             </p><p>25.何时是你生命中最快乐的时刻？                 </p><p>26.你的座右铭是什么？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;b&gt;背景：&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;普鲁斯特问卷是一种社会
+        
+      
+    
+    </summary>
+    
+    
+      <category term="心理学" scheme="https://whlshdw.github.io/categories/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
+    
+    
+      <category term="生活" scheme="https://whlshdw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>木葱shadow</title>
+    <link href="https://whlshdw.github.io/%E6%9C%A8%E8%81%AAshadow.html"/>
+    <id>https://whlshdw.github.io/%E6%9C%A8%E8%81%AAshadow.html</id>
+    <published>2020-05-01T16:00:00.000Z</published>
+    <updated>2020-10-11T10:44:36.251Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="坚持做自我反省，我可以做的更好"><a href="#坚持做自我反省，我可以做的更好" class="headerlink" title="坚持做自我反省，我可以做的更好"></a>坚持做自我反省，我可以做的更好</h4><p>大脑需要不断的思考，才能不会迟钝。这段时间，很少思考，导致大脑迟钝。</p><h4 id="认真对待生活的每一件事，无论大事小事"><a href="#认真对待生活的每一件事，无论大事小事" class="headerlink" title="认真对待生活的每一件事，无论大事小事"></a>认真对待生活的每一件事，无论大事小事</h4><p>时间每一分每一秒都在经过，他不会停留。你做的每一个决定，都不会有重复的机会，都是不样的自己。不要觉的还有重新来过的机会，没有了，这个时间过去了就是过去了，不会再回来。</p><h4 id="认清楚自己的能力，做有思考的拼命"><a href="#认清楚自己的能力，做有思考的拼命" class="headerlink" title="认清楚自己的能力，做有思考的拼命"></a>认清楚自己的能力，做有思考的拼命</h4><p>认清自己能力，自己不是天才，也不能闭关修炼。放下自己傲气的身段，真诚的对待每一个人，每天做一些坚持。需要结交更多的朋友，吸收更多的东西，多聆听别人是怎么说的，别急于表达自己的观点。</p><h4 id="不要逃避，这只青蛙你必须吃下去，无论如何都需要吃，不要犹豫一口吃掉。"><a href="#不要逃避，这只青蛙你必须吃下去，无论如何都需要吃，不要犹豫一口吃掉。" class="headerlink" title="不要逃避，这只青蛙你必须吃下去，无论如何都需要吃，不要犹豫一口吃掉。"></a>不要逃避，这只青蛙你必须吃下去，无论如何都需要吃，不要犹豫一口吃掉。</h4><p>不要天真以为可以逃避开一些事情，勇敢去面对，会发现自己已经逃无可逃。勇敢的上。认真对待。</p><h4 id="列出来的计划，一定要执行"><a href="#列出来的计划，一定要执行" class="headerlink" title="列出来的计划，一定要执行"></a>列出来的计划，一定要执行</h4><p>根据切实情况列出计划，调整。</p><h4 id="认真执行自己的计划，"><a href="#认真执行自己的计划，" class="headerlink" title="认真执行自己的计划，"></a>认真执行自己的计划，</h4><p>不敷衍，因为这是在敷衍自己，时间会证明你做的努力是假的努力还是真的努力。</p><h4 id="每天睡前半小时复习法"><a href="#每天睡前半小时复习法" class="headerlink" title="每天睡前半小时复习法"></a>每天睡前半小时复习法</h4><p>疲惫也坚持进行</p><h4 id="认真生活"><a href="#认真生活" class="headerlink" title="认真生活"></a>认真生活</h4><p>生活和工作和学习分不开的，认认真真。</p><p>将生活过的有仪式感，不亏待自己。好好吃饭，好好睡觉，好好对待感情。</p><h4 id="刻意锻炼自己逻辑思维能力"><a href="#刻意锻炼自己逻辑思维能力" class="headerlink" title="刻意锻炼自己逻辑思维能力"></a>刻意锻炼自己逻辑思维能力</h4><p>多找生活中的不解与答案，不要害怕别人说什么，学会提问，找寻答案，不敷衍自己。</p><h4 id="坚持记录"><a href="#坚持记录" class="headerlink" title="坚持记录"></a>坚持记录</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;坚持做自我反省，我可以做的更好&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="生活" scheme="https://whlshdw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>let&#39;s Save Water</title>
+    <link href="https://whlshdw.github.io/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%87/let%E2%80%98s%20Save%20Water.html"/>
+    <id>https://whlshdw.github.io/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%87/let%E2%80%98s%20Save%20Water.html</id>
+    <published>2020-05-01T16:00:00.000Z</published>
+    <updated>2020-11-15T16:40:58.882Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="let’s-Save-Water"><a href="#let’s-Save-Water" class="headerlink" title="let’s Save Water"></a>let’s Save Water</h4><p>​        <strong>Along with the advance of society more and more controverisal have been brought to our attention one of with is that</strong>  how to save water.</p><p>随着社会的不断发展和进步,出现了越来越多的问题引起我们的关注,其中之一便是 “how to save water.”</p><p>​        <strong>Why</strong> we have to save water,<strong>maby the reasons can be listed as follows:</strong></p><p>为什么”we have to save water”,理由如下: </p><p>​        <strong>Start with,</strong> although 71 percent of the earth surface is water, but 98% percent is seawater and only 2 percent is fresh water. The available water resources are few to man.</p><p>​        <strong>Inaddition,</strong> In recent decades, the pollution has more and more serious, leading to a further decrease in available fresh water resoureces.</p><p>理由一: XXX</p><p>​        <strong>last but not last,</strong> with the increase of population, the use of fresh water is in creasing.</p><p>理由二 :XXX</p><p>​        <strong>Obviously it is high time that we took some measure to solve the problem.</strong></p><p>很明显,我们现在必须采取一些措施。</p><p>​        <strong>For one thing,</strong> we can cut down on bathing time and reuse water,such as washing rice with water can wash vegetables and so on.</p><p>方面一：XXX</p><p>​        <strong>For another,</strong> we do garbage classification to reduce water pollution.</p><p>方面二：XXX</p><p>​        <strong>I think all the measures above can make present situation better. let us all start to do so by ourselves.</strong></p><p>我认为上述措施能使现状变好,让我们都从自身做起。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;let’s-Save-Water&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="本科自学考试" scheme="https://whlshdw.github.io/categories/%E6%9C%AC%E7%A7%91%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95/"/>
+    
+    
+      <category term="英语作文模板" scheme="https://whlshdw.github.io/tags/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%87%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自考英语二作文模板</title>
+    <link href="https://whlshdw.github.io/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%87/%E8%87%AA%E8%80%83%E8%8B%B1%E8%AF%AD%E4%BA%8C%E4%BD%9C%E6%96%87%E6%A8%A1%E6%9D%BF.html"/>
+    <id>https://whlshdw.github.io/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%87/%E8%87%AA%E8%80%83%E8%8B%B1%E8%AF%AD%E4%BA%8C%E4%BD%9C%E6%96%87%E6%A8%A1%E6%9D%BF.html</id>
+    <published>2020-05-01T16:00:00.000Z</published>
+    <updated>2020-11-15T16:40:43.521Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、开头"><a href="#一、开头" class="headerlink" title="一、开头"></a>一、开头</h4><p>句式一：</p><p>It is well known to us that…(众所周知…)</p><p>It is commonly believed that…（人们一般认为…）</p><p>省略加一个句子，比如：It is well-know to us that reading is very useful (我们都知道读书很有用)</p><p>句式二：</p><p>Recently the problem of … has been brought into focus.</p><p>省略位置加名词、动名词或词组，比如：Recently the problem of “fight aginst haze” has been brought into focus. 这个句式可以用于比较“麻烦”的话题，比如“雾霾”，或者“肥胖”。</p><h4 id="二、阐述观点"><a href="#二、阐述观点" class="headerlink" title="二、阐述观点"></a>二、阐述观点</h4><p>句式一：</p><p>in my opinion,….或者I sincerely believe that…(我认为…)</p><p>句式二：</p><p>People’s views on……vary from person to person. Some hold that……However,others believe that……From my point of view, it is more reasonable to support the first opinion rather than the second.</p><p>人们对……的观点因人而异，有些人认为……然而其他人确认为……,在我看来，支持第一种观点比第二种更有道理。</p><p>句式三：</p><p>Some people hold that….,but in my opinon,……</p><p>一些人认为……,但在我看来,……</p><p>句式四:</p><p>It may be true that……but it doesn’t mean that ……</p><p>可能….这是真的，但是并不意味着….</p><h4 id="三、论证观点"><a href="#三、论证观点" class="headerlink" title="三、论证观点"></a>三、论证观点</h4><p>句式一：</p><p>For one thing,…… For another thing,……(一方面……,另一方面……)</p><p>On the one hand,…….On the other hand……(一方面……,另一方面……)</p><p>First,…… Second, ……</p><p>句式二：</p><p>By the way,…….(顺便说一下)</p><p>句式三：</p><p>Finally, to speak frankly,there is also a more practical rason why i think……</p><p>最后，坦率的说，我之所以认为…..,其实还有另外一个实际原因。</p><p>句式四：</p><p>The reason why +句子<del>~</del> is that +句子（……的原因是……）</p><h4 id="四、总结号召"><a href="#四、总结号召" class="headerlink" title="四、总结号召"></a>四、总结号召</h4><p>句式一：</p><p>No doubt, we must take effective measures, and only in this way can we ……</p><p>毫无疑问，我们必须采取有效措施，只有这样我们才能……</p><p>句式二：In short, it can be said that …..</p><p>总而言之,……</p><p>句式三：</p><p>From what has been mentoned above, we can come to the conclusion that……</p><p>从上面提到的，我们可以得出结论……</p><p>句式四:</p><p>The best way to solve the troubles is ……</p><p>解决这些麻烦的办法是……</p><hr><h3 id="现象分析型"><a href="#现象分析型" class="headerlink" title="现象分析型"></a>现象分析型</h3><p>1、现如今，人们对于___这个话题广泛关注。事实上，对于——这个问题也是由利有弊。总的来说人们普遍认为有如下好处：</p><p>Nowdays, there is wide spread concern over (the issue that + 句子)题目。</p><p>In fact,there are both advantages and disadvatages in 题目议题。</p><p>Generally speaking,it is widely believed that thereare several positive aspects as follows: First, 优点一 And second, 优点二 </p><p>2.正如依据流行的谚语所说, 事物都有两面性 —-也不例外,换句话说,它也有一些缺点 </p><p>Just as a popular saying goes every cion has two sides ,讨论议题 is no exception,and in other words,it stillhas negative aspects. </p><p>To begain with, 缺点一</p><p> In addition, 缺点二 </p><p> 3.总的来说,我们要把 讨论议题 的优点发挥到极致,同时把它的缺点降到最低 只有这样,我们才能真正更好的利用—-</p><p> To sum up,we should try to bring the advantages of讨论议题 into full play,and reduce the disadvantages to the minimum at the same time. </p><p>In that fact,we will definitely make a better use ofthe讨论议题 </p><h3 id="普通答题型"><a href="#普通答题型" class="headerlink" title="普通答题型"></a>普通答题型</h3><p>1.随着社会的不断发展和进步,出现了越来越多的问题引起我们的关注,其中之一便是—-</p><p>Along with the advance of society more and more controversial issues have been brought to our attention one of which is that 句子 </p><p>2.为什么有那么多的_—理由如下: </p><p>Why have there been so many 名词 who 定从 maybe the reasons can be listed as follows.</p><p> To begin/start with, 理由一</p><p> Furthermore /Besides /Inaddition, 理由二 </p><p>Last but not least, 理由三 </p><p>3.很明显,我们现在必须采取一些措施 </p><p>Obviously it is high time that we took some measures to solve the problem . </p><p>For one thing, 方面一</p><p> For another, 方面二</p><p> 4.我认为上述措施能使现状变好,让我们都从自身做起</p><p> I think all the measures above can make present situation better.let us all start to do so by ourselves. </p><h3 id="观点对比型-1"><a href="#观点对比型-1" class="headerlink" title="观点对比型(1 )"></a>观点对比型(1 )</h3><p>1.总所周知,对于___ __这个问题,大家越来越关注,但是大家对此的观点却因人而异 </p><p>There is widespread concern over the issues that 作文题目 . But it is well know that the opinion concerning this hot topic varies from person to person.</p><p> 2.大部分认为<strong>_ 在他们看来,有如下亮点来代表他们的态度 首先, 其次,___</strong> 所以,不言而喻,<strong>____</strong> </p><p>A majority of people think that 观点一 . In their views there are 2 factors contributing to this attitude as follows: </p><p>In the first place, 原因一 . Furthermore,in the second , 原因二 . So it goes without sayingthat 观点一 . </p><p> 3.然而,对于这个问题,也有不同的观点 有些人就认为<strong>___</strong> 一方面,<strong><strong>_ 另一方面,___</strong></strong> 因此,毫无疑问,<strong>__</strong></p><p>People, however,differ in their opinions on this matter.Some people hold the idea that 观点二 . In their point of view, On the one hand, 原因一 . On the other hand, 原因二 . Therefore, there is no doubtthat 观点二 . </p><p>4.就我个人而言,我坚决认为<strong>___</strong>,这不仅是因为<strong>___</strong>,而且还因为<strong>___</strong> </p><p>As far as I am concerned,I firmly support the view that 观点一/观点二 .</p><p> It is not only because 原因一 ,but also because 原因二 . </p><h3 id="观点对比型"><a href="#观点对比型" class="headerlink" title="观点对比型( )"></a>观点对比型( )</h3><p>1.说到<strong>___</strong>,人们的观点是各不相同的 有些人认为<strong><strong><em>1</em></strong></strong> 他们这么认为是因为 </p><p>When it comes to 争议议题 ,people s ideas are not cut from the same cloth.Some people are of the view that 观点一 . They hold their view for the reason that 原因一 . What s more 原因二 Moreover, 原因三 . </p><p>2.另一方面,有些人也持有相反的观点,他们坚持认为2. </p><p>On the other hand,others takean opposite side,firmly believing that 观点二 . </p><p>Firstly, 理由一</p><p> Secondly, 理由二 </p><p>Thirdly, 理由三 </p><p>3.在我看来,前者/后者的观点在许多方面看来是更可取的,原因是很明显的 一方面,<strong><strong>_ 另外一方面,___</strong></strong>.因此,前者/后者肯定是明智的选择 </p><p>Form my point of view,theformer/latter notion is preferable in many senses. The reasons are obvious. For one thing, 理由一/原因一 . For another, 理由二/原因二 .</p><p> As a consequence,the former/latteris surely a wise choice. 1)</p><p>要求论述两个对立的观点并给出自己的看法 1.有一些人认为 2.另一些人认为 3.我的看法 </p><p>The topic of —————–(主题)is becoming more and more popular recently. There are two sides ofopinions about it. Some people say A is their favorite. They hold their viewfor the reason of —————–(支持A的理由一)What is more, ————-理由二). Moreover, —————(理由三). </p><p>While others think that B is a better choice in the following three reasons. </p><p>Firstly,—————–(支持B的理由一).</p><p>Secondly (besides), ——————(理由二). </p><p>Thirdly (finally), ——————(理由三). </p><p>From my point of view, I think —————-(我的观点). The reason is that ——————–(原因). As a matter of fact, there are some other reasons to explain mychoice. For me, the former is surely a wise choice .</p><p> 2)给出一个观点,要求考生反对这一观点 </p><p>Some people believe that —————-(观点一). For example, they think —————–(举例说明).And it will bring them —————(为他们带来的好处). In my opinion, I never think thisreason can be the point. For one thing, ————-(我不同意该看法的理由一). For another thing, ———(反对的理由之二).</p><p> Form all what I have said, I agree to the thought that —–(我对文章所讨论主题的看法). </p><h3 id="阐述主题题型"><a href="#阐述主题题型" class="headerlink" title="阐述主题题型"></a>阐述主题题型</h3><p>要求从一句话或一个主题出发,按照提纲的要求进行论述. </p><p>1.阐述名言或主题所蕴涵的意义.</p><p> 2.分析并举例使其更充实.</p><p> The good old proverb —————-(名言或谚语)reminds us that—————-(释义). Indeed, we can learn many things form it. </p><p>First of all,—————–(理由一). For example,——————-(举例说明). Secondly,—————-(理由二). Another case is that —————(举例说明).Furthermore , ——————(理由三). </p><p>In my opinion, —————-(我的观点). In short,whatever you do, please remember the say——A. If you understand it and applyit to your study or work, you’ll necessarily benefit a lot from it. </p><h3 id="解决方法题型"><a href="#解决方法题型" class="headerlink" title="解决方法题型"></a>解决方法题型</h3><p>要求考生列举出解决问题的多种途径 </p><p>1.问题现状</p><p> 2.怎样解决(解决方案的优缺点) </p><p>In recent days, we have to face Iproblem—–A, which is becoming more and more serious. First, ————(说明A的现状).Second, ———-(举例进一步说明现状)</p><p> Confronted with A, we should take aseries of effective measures to cope with the situation. For one thing,—————(解决方法一). For another ————-(解决方法二).Finally, ————–(解决方法三). </p><p>Personally, I believe that————-(我的解决方法). Consequently, I m confident that a brightfuture is awaiting us because ————–(带来的好处). </p><h3 id="说明利弊题型"><a href="#说明利弊题型" class="headerlink" title="说明利弊题型"></a>说明利弊题型</h3><p>这种题型往往要求先说明一下现状,再对比事物本身的利弊,有时也会单从一个角度(利或弊)出发,最后往往要求考生表明自己的态度(或对事物前景提出预测)</p><p> 1.说明事物现状 </p><p>2.事物本身的优缺点(或一方面) </p><p>3.你对现状(或前景)的看法 </p><p>Nowadays many people prefer A because it has a significant role in ourdaily life. Generally, its advantages can be seen as follows. First—————-(A的优点之一). Besides ——————-(A的优点之二). </p><p>But every coin has two sides. The negative aspects are also apparent. One of the important disadvantages is that—————-(A的第一个缺点).To make matters worse,——————(A的第二个缺点).</p><p> Through the above analysis, I believe that the positive aspects overweigh the negative ones. Therefore, I would liketo —————(我的看法). (Or: From the comparison between these positive and negative effects of A, we should take it reasonably and do it according to the circumstances we are in. Only by this way, —————(对前景的预测).) </p><p>议论文的框架 </p><p>1)不同观点列举型( 选择型 ) </p><p>There is a widespread concern over the issuethat 作文题目.</p><p>But it is well known that the opinion concerning this hot topic varies from person to person. A majority of people think that 观点一. In their viewsthere are 2 factors contributing to this attitude as follows: </p><p>in the first place, 原因一.</p><p>Furthermore, inthe second place, 原因二. </p><p>So it goes without saying that 观点一. </p><p>People,however,differ in their opinionson this matter. Some peoplehold the idea that观点二. In their point of view, on the onehand,原因一. On the other hand, 原因二.</p><p> Therefore, there is no doubt that 观点二. As far as I am concerned, I firmly support the view that 观点一或二_. </p><p>It is not only because <strong>____</strong>, but also because_________. The more <strong>___</strong>, the more <strong>__</strong>. </p><h3 id="利弊型的议论文"><a href="#利弊型的议论文" class="headerlink" title="利弊型的议论文"></a>利弊型的议论文</h3><p>Nowadays, there is a widespread concern over(the issue that)作文题目. In fact, there are both advantagesand disadvantages in 题目议题. </p><p>Generally speaking, it is widely believed there are severalpositive aspects as follows. Firstly, 优点一. And secondly 优点二. Just as a popular sayinggoes, “every coin has two sides”,讨论议题is no exception, and in another word, itstill has negative aspects. To begin with,缺点一. In addition, 缺点二. To sum up, we should try tobring the advantages of 讨论议题into full play, and reduce the disadvantagesto the minimum at the same time. In that case, wewill definitely make a better use of the 讨论议题. </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;一、开头&quot;&gt;&lt;a href=&quot;#一、开头&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="本科自学考试" scheme="https://whlshdw.github.io/categories/%E6%9C%AC%E7%A7%91%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95/"/>
+    
+    
+      <category term="英语作文模板" scheme="https://whlshdw.github.io/tags/%E8%8B%B1%E8%AF%AD%E4%BD%9C%E6%96%87%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
+  
+</feed>
