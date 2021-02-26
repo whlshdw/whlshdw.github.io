@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://whlshdw.github.io/"/>
-  <updated>2021-02-26T14:52:37.620Z</updated>
+  <updated>2021-02-26T14:56:57.358Z</updated>
   <id>https://whlshdw.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E7%9A%84%E4%B9%A6%E6%91%98.html"/>
     <id>https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6%E7%9A%84%E4%B9%A6%E6%91%98.html</id>
     <published>2021-02-26T14:42:52.152Z</published>
-    <updated>2021-02-26T14:52:37.620Z</updated>
+    <updated>2021-02-26T14:56:57.358Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="关于微信读书的书摘"><a href="#关于微信读书的书摘" class="headerlink" title="关于微信读书的书摘"></a>关于微信读书的书摘</h1><blockquote><p>也是因为她的原因，养成了用微信读书APP工具看书的习惯，之前觉的挺好的，现在总是广告。因为有排名机制，也能够看到别人的书评，这是我很喜欢的部分。有时候我自己也会摘录写自己认为有趣的句子，或者写一些评论，觉得TND的广告太多，想跟bolg结合在一块，想把从<a href="muzi.com">木子</a>的kindle的书摘小工具做个改造。改造成既可以支持kindle的书摘导出，也可以支持微信读书的书摘导出，形成对对应格式读书笔记的网页，<a href="https://sthwhl.github.io/books/" target="_blank" rel="noopener">demo</a>展示。</p></blockquote><h2 id="项目说明"><a href="#项目说明" class="headerlink" title="项目说明"></a>项目说明</h2><p>这是一个使用 Python 语言编写的小工具，用于将 Kindle 标注笔记文件 <code>My Clippings.txt</code> 转换成 html 文件。fork 自 <a href="https://github.com/cyang812/kindleNote" target="_blank" rel="noopener">kindleNote</a>，重写生成的 html 样式为 <a href="https://bookfere.com/tools#ClippingsFere" target="_blank" rel="noopener">书伴网 Clippings Fere 工具</a>，使之适配移动端。预览网站 <a href="https://kindle.502.li" target="_blank" rel="noopener">kindle.502.li</a></p><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><ul><li>1、从 kindle 中拷贝出标注文件 <code>My Clippings.txt</code>，重命名为 source.txt。</li><li>2、下载本项目源码，使用你的 source.txt 进行替换。</li><li>3、在 Python3 环境下执行 <code>python3 kindle.py</code> 指令，等待生成网页文件。</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/muzi502/kindle</span><br><span class="line">cd kindle</span><br><span class="line">cat /your/path/My Clippings.txt &gt; source.txt</span><br><span class="line">python3 kindle.py</span><br></pre></td></tr></table></figure><h2 id="相关脚本"><a href="#相关脚本" class="headerlink" title="相关脚本"></a>相关脚本</h2><p>在 Windows 环境下可以使用 .bat 脚本来自动复制 <code>My Clippings.txt</code> 文件到相应的位置。根据自己的环境修改相应的变量即可。</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">set src=<span class="string">"G:\documents\My Clippings.txt"</span> </span><br><span class="line">set dist=<span class="variable">$PATH</span>/source.txt</span><br><span class="line">set pngsrc=G:\*.png</span><br><span class="line">set pngdist=<span class="variable">$PATH</span></span><br><span class="line">copy /Y  %src% %dist%</span><br><span class="line">copy /Y %pngsrc% %pngdist%</span><br></pre></td></tr></table></figure><h3 id="10月6号更新"><a href="#10月6号更新" class="headerlink" title="10月6号更新"></a>10月6号更新</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd D:\sthwhl\tool\kindle<span class="literal">-master</span></span><br><span class="line">copy <span class="string">"My Clippings.txt"</span> source.txt</span><br><span class="line">python kindle.py</span><br></pre></td></tr></table></figure><h3 id="12月8号更新"><a href="#12月8号更新" class="headerlink" title="12月8号更新"></a>12月8号更新</h3><p>想加入微信读书转换的功能，页面样式已经写好。整体写好后就开源出去。</p><p>大概功能：</p><ul><li><input disabled="" type="checkbox"> <p>抓取图书目录与标注到.txt文件中。</p></li><li><input disabled="" type="checkbox"> <p>抓取对应图书id的的个人想法与她人评论与昵称呈现出来。</p></li><li><input disabled="" type="checkbox"> <p>标注在前，想法在后。</p></li><li><input disabled="" type="checkbox"> <p>标注的第一条想法不显示昵称，在他人评价后的回复显示昵称。</p></li><li><input disabled="" type="checkbox"> <p>标注按照书籍的时间顺序排列。</p></li><li><input disabled="" type="checkbox"> <p>图书的评价为最后一览，若书未读完则显示暂无评价。</p></li><li><input disabled="" type="checkbox"> <p>kindle与微信读书的整合。</p></li><li><p>目前发现存在的疑问</p><p>暂未掌握如何准确的爬取对应内容并输出准确格式。<br>爬取的微信读书的标注似乎没有时间。</p></li><li><p>会用到的三个微信读书API：</p><p>1、划热线，即标注markText：<code>https://i.weread.qq.com/book/bookmarklist?bookId=</code><br>2、摘要和想法：<code>https://i.weread.qq.com/review/list?listtype=6&amp;mine=1&amp;bookId=&amp;synckey=0&amp;listmode=0%27</code><br>3、书评：<code>https://i.weread.qq.com/review/list?listType=6&amp;userVid=str(USERVID)&amp;rangeType=2&amp;mine=1&amp;listMode=1</code></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="关于微信读书的书摘"><a href="#关于微信读书的书摘" class="headerlink" title="关于微信读书的书摘"></a>关于微信读书的书摘</h1><blockquote><p>也是因为她的原因，养成了用微信读书APP工具看书的习惯，之前觉的挺好的，现在总是广告。因为有排名机制，也能够看到别人的书评，这是我很喜欢的部分。有时候我自己也会摘录写自己认为有趣的句子，或者写一些评论，觉得TND的广告太多，想跟bolg结合在一块，想把从<a href="muzi.com">木子</a>的kindle的书摘小工具做个改造。改造成既可以支持kindle的书摘导出，也可以支持微信读书的书摘导出，形成对对应格式读书笔记的网页，<a href="https://sthwhl.github.io/books/" target="_blank" rel="noopener">demo</a>展示。</p></blockquote><h2 id="项目说明"><a href="#项目说明" class="headerlink" title="项目说明"></a>项目说明</h2><p>这是一个使用 Python 语言编写的小工具，用于将 Kindle 标注笔记文件 <code>My Clippings.txt</code> 转换成 html 文件。fork 自 <a href="https://github.com/cyang812/kindleNote" target="_blank" rel="noopener">kindleNote</a>，重写生成的 html 样式为 <a href="https://bookfere.com/tools#ClippingsFere" target="_blank" rel="noopener">书伴网 Clippings Fere 工具</a>，使之适配移动端。预览网站 <a href="https://kindle.502.li" target="_blank" rel="noopener">kindle.502.li</a></p><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><ul><li>1、从 kindle 中拷贝出标注文件 <code>My Clippings.txt</code>，重命名为 source.txt。</li><li>2、下载本项目源码，使用你的 source.txt 进行替换。</li><li>3、在 Python3 环境下执行 <code>python3 kindle.py</code> 指令，等待生成网页文件。</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/muzi502/kindle</span><br><span class="line">cd kindle</span><br><span class="line">cat /your/path/My Clippings.txt &gt; source.txt</span><br><span class="line">python3 kindle.py</span><br></pre></td></tr></table></figure><h2 id="相关脚本"><a href="#相关脚本" class="headerlink" title="相关脚本"></a>相关脚本</h2><p>在 Windows 环境下可以使用 .bat 脚本来自动复制 <code>My Clippings.txt</code> 文件到相应的位置。根据自己的环境修改相应的变量即可。</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">set src=<span class="string">"G:\documents\My Clippings.txt"</span> </span><br><span class="line">set dist=<span class="variable">$PATH</span>/source.txt</span><br><span class="line">set pngsrc=G:\*.png</span><br><span class="line">set pngdist=<span class="variable">$PATH</span></span><br><span class="line">copy /Y  %src% %dist%</span><br><span class="line">copy /Y %pngsrc% %pngdist%</span><br></pre></td></tr></table></figure><h3 id="10月6号更新"><a href="#10月6号更新" class="headerlink" title="10月6号更新"></a>10月6号更新</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd D:\sthwhl\tool\kindle<span class="literal">-master</span></span><br><span class="line">copy <span class="string">"My Clippings.txt"</span> source.txt</span><br><span class="line">python kindle.py</span><br></pre></td></tr></table></figure><h3 id="12月8号更新"><a href="#12月8号更新" class="headerlink" title="12月8号更新"></a>12月8号更新</h3><p>想加入微信读书转换的功能，页面样式已经写好。整体写好后就开源出去。</p><h4 id="大概功能："><a href="#大概功能：" class="headerlink" title="大概功能："></a>大概功能：</h4><ul><li><input disabled="" type="checkbox"> <p>抓取图书目录与标注到.txt文件中。</p></li><li><input disabled="" type="checkbox"> <p>抓取对应图书id的的个人想法与她人评论与昵称呈现出来。</p></li><li><input disabled="" type="checkbox"> <p>标注在前，想法在后。</p></li><li><input disabled="" type="checkbox"> <p>标注的第一条想法不显示昵称，在他人评价后的回复显示昵称。</p></li><li><input disabled="" type="checkbox"> <p>标注按照书籍的时间顺序排列。</p></li><li><input disabled="" type="checkbox"> <p>图书的评价为最后一览，若书未读完则显示暂无评价。</p></li><li><input disabled="" type="checkbox"> <p>kindle与微信读书的整合。</p></li></ul><h4 id="目前发现存在的疑问"><a href="#目前发现存在的疑问" class="headerlink" title="目前发现存在的疑问"></a>目前发现存在的疑问</h4><p>  暂未掌握如何准确的爬取对应内容并输出准确格式。<br>  爬取的微信读书的标注似乎没有时间。</p><h4 id="会用到的三个微信读书API："><a href="#会用到的三个微信读书API：" class="headerlink" title="会用到的三个微信读书API："></a>会用到的三个微信读书API：</h4><p>  1、划热线，即标注markText：<code>https://i.weread.qq.com/book/bookmarklist?bookId=</code><br>  2、摘要和想法：<code>https://i.weread.qq.com/review/list?listtype=6&amp;mine=1&amp;bookId=&amp;synckey=0&amp;listmode=0%27</code><br>  3、书评：<code>https://i.weread.qq.com/review/list?listType=6&amp;userVid=str(USERVID)&amp;rangeType=2&amp;mine=1&amp;listMode=1</code></p>]]></content>
     
     <summary type="html">
     
@@ -180,35 +180,6 @@
   </entry>
   
   <entry>
-    <title>决定考研了</title>
-    <link href="https://whlshdw.github.io/%E5%86%B3%E5%AE%9A%E8%80%83%E7%A0%94.html"/>
-    <id>https://whlshdw.github.io/%E5%86%B3%E5%AE%9A%E8%80%83%E7%A0%94.html</id>
-    <published>2020-06-05T16:00:00.000Z</published>
-    <updated>2021-01-13T14:01:41.251Z</updated>
-    
-    <content type="html"><![CDATA[<p>从你身上学习了不自我设限，为了更清楚的了解自己，决定考心理学。话不多说，先与行，中间诸多曲折，自思量，时间不会重来，时间值得认真去对待，不再有小孩心态，认为还会在重复，事情值得认真对待。希望能参与你的痕迹。</p><p>——20200606</p><p>2021年1月13日记录</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;从你身上学习了不自我设限，为了更清楚的了解自己，决定考心理
-        
-      
-    
-    </summary>
-    
-    
-      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
-    
-    
-      <category term="生活" scheme="https://whlshdw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
     <title>关于我要读研究生这件事</title>
     <link href="https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%92%B1%E8%A6%81%E8%80%83%E7%A0%94%E8%BF%99%E4%BB%B6%E4%BA%8B.html"/>
     <id>https://whlshdw.github.io/%E5%85%B3%E4%BA%8E%E5%92%B1%E8%A6%81%E8%80%83%E7%A0%94%E8%BF%99%E4%BB%B6%E4%BA%8B.html</id>
@@ -224,6 +195,35 @@
         
         
           &lt;h3 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="https://whlshdw.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="生活" scheme="https://whlshdw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>决定考研了</title>
+    <link href="https://whlshdw.github.io/%E5%86%B3%E5%AE%9A%E8%80%83%E7%A0%94.html"/>
+    <id>https://whlshdw.github.io/%E5%86%B3%E5%AE%9A%E8%80%83%E7%A0%94.html</id>
+    <published>2020-06-05T16:00:00.000Z</published>
+    <updated>2021-01-13T14:01:41.251Z</updated>
+    
+    <content type="html"><![CDATA[<p>从你身上学习了不自我设限，为了更清楚的了解自己，决定考心理学。话不多说，先与行，中间诸多曲折，自思量，时间不会重来，时间值得认真去对待，不再有小孩心态，认为还会在重复，事情值得认真对待。希望能参与你的痕迹。</p><p>——20200606</p><p>2021年1月13日记录</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;从你身上学习了不自我设限，为了更清楚的了解自己，决定考心理
         
       
     
