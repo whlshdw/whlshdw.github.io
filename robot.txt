@@ -1,0 +1,14 @@
+# hexo robots/txt
+#robots.txt 是搜索引擎中访问网站的时候要查看的第一个文件。robots.txt 文件告诉蜘蛛程序在服务器上什么文件是可以被查看的。
+#robots.txt 应该放在站点目录下的 source 文件中，网站生成后在网站的根目录 (站点目录 /public/) 下。
+User-Agent: *
+Allow: /
+Disallow: /background
+Disallow: /css
+Disallow: /fancybox
+Disallow: /font-awesome
+Disallow: /img
+Disallow: /js
+Sitemap: https://sthwhl.github.io/sitemap.xml
+
+

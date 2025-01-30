@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/medias/logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/medias/logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/medias/logo.svg">
+  <link rel="mask-icon" href="/medias/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://whlshdw.github.io').hostname,
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"default"},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"buttons","active":null,"storage":true,"lazyload":true,"nav":{"disqus":{"text":"Load Disqus","order":-1}}},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="本文以F公司的项目交付过程为实践，也算对自己做过的工作交一份作业吧，尽管现在看来觉得写的稀烂😂，挂着当个纪念。更新于2021年1月25日  摘要    当下，随着信息科学技术的发展、企业流程再造加快，产品成本已经降到低点，当企业经营者对利润的追逐无法再从降低成本中获得满足后，便把目光朝向了客户。因此，培养客户满意度对于提高企业核心竞争力至关重要，客户是企业存在和发展的基础，市场竞争的本质是为客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="客户满意度管理研究">
+<meta property="og:url" content="https://whlshdw.github.io/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html">
+<meta property="og:site_name" content="Nautilus">
+<meta property="og:description" content="本文以F公司的项目交付过程为实践，也算对自己做过的工作交一份作业吧，尽管现在看来觉得写的稀烂😂，挂着当个纪念。更新于2021年1月25日  摘要    当下，随着信息科学技术的发展、企业流程再造加快，产品成本已经降到低点，当企业经营者对利润的追逐无法再从降低成本中获得满足后，便把目光朝向了客户。因此，培养客户满意度对于提高企业核心竞争力至关重要，客户是企业存在和发展的基础，市场竞争的本质是为客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://7.dusays.com/2020/11/05/263b27f67e4db.jpg">
+<meta property="og:image" content="https://7.dusays.com/2020/11/15/d42d3424b70c9.png">
+<meta property="og:image" content="https://7.dusays.com/2020/11/15/9793f338fc848.png">
+<meta property="og:image" content="https://7.dusays.com/2020/11/15/4ddcafa914439.png">
+<meta property="og:image" content="https://7.dusays.com/2020/11/15/8e52d226de6a8.png">
+<meta property="article:published_time" content="2020-11-03T10:29:03.000Z">
+<meta property="article:modified_time" content="2025-01-30T04:22:09.552Z">
+<meta property="article:author" content="whlshdw">
+<meta property="article:tag" content="毕业论文">
+<meta property="article:tag" content="工作总结">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://7.dusays.com/2020/11/05/263b27f67e4db.jpg">
+
+<link rel="canonical" href="https://whlshdw.github.io/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>客户满意度管理研究 | Nautilus</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="Nautilus" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+
+
+<a href="https://github.com/sthwhl" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>	
+	
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nautilus</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-links">
+
+    <a href="/links/" rel="section"><i class="fa fa-fw fa-link"></i>Links</a>
+
+  </li>
+        <li class="menu-item menu-item-books">
+
+    <a href="https://sthwhl.github.io/books" rel="noopener" target="_blank"><i class="fa fa-fw fa-book"></i>Books</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-artitalk">
+
+    <a href="/artitalk" rel="section"><i class="fa fa-fw fa-edit"></i>Artitalk</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://whlshdw.github.io/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/avatars/1.png">
+      <meta itemprop="name" content="whlshdw">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nautilus">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          客户满意度管理研究
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-11-03 2020-11-03T18:29:03+08:00" itemprop="dateCreated datePublished" datetime="2020-11-03T18:29:03+08:00">2020-11-03</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%85%B6%E4%BB%96%E5%88%86%E4%BA%AB/" itemprop="url" rel="index">
+                    <span itemprop="name">其他分享</span>
+                  </a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html#comments" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="其它分享/客户满意度管理研究.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>13k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>21 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<p>本文以F公司的项目交付过程为实践，也算对自己做过的工作交一份作业吧，尽管现在看来觉得写的稀烂😂，挂着当个纪念。更新于2021年1月25日</p>
+</blockquote>
+<center><big><b>摘要 </b></big></center>
+<p>  当下，随着信息科学技术的发展、企业流程再造加快，产品成本已经降到低点，当企业经营者对利润的追逐无法再从降低成本中获得满足后，便把目光朝向了客户。因此，培养客户满意度对于提高企业核心竞争力至关重要，客户是企业存在和发展的基础，市场竞争的本质是为客户的竞争。 以赢得更高的客户保留和盈利能力，必须开始重视客户需求，提供满足客户需求的服务，有效管理和培养客户关系，确保客户能从企业的商业合作中获得较高的满意度。</p>
+<p>  F公司为华为公司的信息技术服务合作伙伴，旗下工程师在华为公司协助与共同管理下，负责对华为授权区域的ICT的售后服务。本文以F公司工程师售后团队为SZ市HD大学建设云计算数据中心项目的整体售后服务过程为案例，阐述F公司在&quot;工程类项目交付&quot;售后服务过程中客户满意度管理的研究与分析。</p>
+<p>  本文以F公司的项目交付过程为实践，有较强的应用性对其他ASP企业在&quot;工程类交付&quot;售后服务的客户满意度管理提供了借鉴意义。</p>
+<p><strong>关键词：</strong> 售后服务，项目交付，客户满意度</p>
+<center><big><b>Abstract </b></big></center>
+<p>  Nowadays, with the development of science and technology and the accelerated pace of enterprise process reengineering, the cost has been reduced to a low point. When the managers’ thirst for profits cannot be satisfied from the reduction of cost, enterprises turn to customers.Therefore, the cultivation of customer satisfaction is crucial to the improvement of core competitiveness of enterprises. Customers are the foundation for the existence and development of enterprises, and the essence of market competition is the competition for <a href="http://customers.In" target="_blank" rel="noopener">customers.In</a> order to win high customer retention and profitability, enterprises must pay attention to customer needs, provide satisfying and service, effectively manage and cultivate customer relations, and ensure that customers can obtain high satisfaction from various contacts of the enterprise.</p>
+<p>  F is huawei’s INFORMATION technology service partner. Its engineers, under the assistance and joint management of Huawei, are responsible for after-sales services of ICT in Huawei’s authorized areas.This paper takes the overall after-sales service process of F engineers’ after-sales team building a cloud computing data center for HD University in SZ city as a case, and expounds the research and analysis of CUSTOMER satisfaction management in the after-sales service process of “engineering project delivery” of F Company.</p>
+<p>  This paper insists on combining theory with practice and has strong applicability, which can effectively solve the problems existing in enterprises. It provides reference significance for F company and other ASP enterprises to manage customer satisfaction in the after-sales service of “engineering delivery”.</p>
+<p>**Keywords：**After sales service, project delivery, customer satisfaction management</p>
+<h2 id="第一章-绪论"><a class="header-anchor" href="#第一章-绪论">¶</a>第一章 绪论</h2>
+<h3 id="一、研究背景"><a class="header-anchor" href="#一、研究背景">¶</a>一、研究背景</h3>
+<p>  随着信息科学技术的发展、企业流程再造加快，产品成本已经降到低点，当企业经营者对利润的渴求无法再从降低成本中获得满足后，企业就把目光转向了客户。因此，培养客户满意度对于提高企业核心竞争力至关重要，客户是企业存在和发展的基础，市场竞争的本质是为客户的竞争。 以赢得更高的客户保留和盈利能力，必须开始重视客户需求，提供满足客户需求的服务，有效管理和培养客户关系，确保客户能从企业的商业合作中获得较高的满意度。</p>
+<p>  F公司是华为在SZ市的一家授权服务伙伴公司，华为授权服务伙伴公司（autorized service partner），简称华为ASP，即通过华为合作伙伴体系的认证，获得华为ICT售后服务的代理资质。ASP公司的形成背景：“华为公司主动将其售后市场蛋糕切分出来，帮助或与其他公司共同组成华为ICT的售后生态体系，以便华为将核心生产力用于研发”。ASP公司招募工程师团队，旗下工程师在华为公司协助与共同管理下，代表原厂售后服务工程师，负责对华为的ICT产品的售后服务。F公司被华为授权的售后服务业务范围主要为：授权区域内企业存储、服务器、路由交换设备等ICT产品的硬件维护、设备健康检查、故障处理、备件更换，以及工程类项目交付、现场技术支持等。其中&quot;工程类项目交付&quot;售后服务过程中的客户满意度管理是本文的研究内容。</p>
+<p>  本文以F公司工程师售后团队为SZ市HD大学建设云计算数据中心项目的售后服务过程为案例，阐述F公司在&quot;工程类项目交付&quot;售后服务过程中客户满意度管理的研究与分析。</p>
+<h3 id="二、研究意义"><a class="header-anchor" href="#二、研究意义">¶</a>二、研究意义</h3>
+<p>  市场竞争不断加剧以及和服务的极大丰富，特别是信息工具和渠道的快速发展，使得客户对同类ICT产品和售后服务的选择范围增大，选择能力提高，因而如何准确把握客户的需求并以最快的速度做出响应，即如何吸引并保留客户已成为当今企业竞争聚焦的关键问题。客户的满意就是企业效益的源泉，而是否拥有客户取决于企业与客户的关系状况，它决定着客户对企业的信任程度即忠诚度，而客户对企业忠诚度则由他们在消费由企业所提供服务过程中的体验和服务满意度来决定，客户满意程度越高，客户忠诚程度也就越高，企业竞争力就越强，市场占有率就越大，企业的投资风险就越小，回报率就越高。</p>
+<p>  为保持市场竞争性、鲜活性，华为公司将其产品的售后服务市场划分为不同份额，对几家合作伙伴公司进行招标，同时华为公司对ASP公司进行售后服务客户满意度考核，售后服务客户满意度直接决定ASP公司能否继续持有该片区域的售后服务授权份额。所以，作为华为合作伙伴的F公司，保证售后服务的客户满意度具有重要意义。</p>
+<p>  ASP公司项目交付的过程即是售后团队与业主深入交互的过程，客户最终对项目交付的满意度程不仅仅取决与项目交付产品的功能，还取决与他们对于目售后团队感知、项目运行过程是否满意。在各类的售后服务中，&quot;工程类项目交付&quot;的售后服务类型在现场服务的时间最长，最易引起客户感知，其对ASP公司与现场工程师的客户服务素质水平要求较高，如何在工程类项目交付中保持较高的客户满意度成为了一个值得思考问题。因此，项目交付中客户满意度管理问题的研究对ASP公司有重要的意义。</p>
+<h3 id="三、研究方法"><a class="header-anchor" href="#三、研究方法">¶</a>三、研究方法</h3>
+<h4 id="（一）个案法"><a class="header-anchor" href="#（一）个案法">¶</a>（一）个案法</h4>
+<p>  本文只涉及F公司一个案例，因而采用了个案研究法，先描述F公司&quot;工程类项目交付&quot;售后服务过程，再对项目交付过程的客户满意度管理问题分析研究。</p>
+<h4 id="（二）文献研究法"><a class="header-anchor" href="#（二）文献研究法">¶</a>（二）文献研究法</h4>
+<p>  通过研读客户满意度管理类文献，学习客户满意度管理相关知识，在知网与万方下载客户相应期刊和论文，搜集整理客户满意度管理的相关研究资料，结合理论在F公司在&quot;工程类项目交付&quot;售后服务实际过程中的客户满意度问题进行分析与总结。</p>
+<h3 id="四、研究内容"><a class="header-anchor" href="#四、研究内容">¶</a>四、研究内容</h3>
+<p>  本文分四个章节对F公司&quot;工程类项目交付&quot;中客户满意度管理问题进行研究，具体如下：第一章：绪论，介绍研究 F公司在项目售后服务过程中客户满意度管理问题的背景和意义，并对研究时所采用的具体研究方法进行阐述。第二章：理论基础，阐明客户满意度管理的有关概念和所具备的功能，重点介绍客户满意度管理的相关理论，为下文的研究奠定理论基础。第三章：案例分析，以F公司工程师售后团队为SZ市大学城某大学建设云计算数据中心项目的整体售后服务过程为案例，先从项目交付的基本情况介绍和项目交付服务流程两个方面进行介绍，再通过项目交付过程中的工程师团队遇到的实际问题与客户的直接反馈，总结分析出F公司在&quot;工程类项目交付&quot;中存在的客户满意度管理问题，根据总结出的问题，提出对应优化具体措施，有效保证在&quot;工程类项目交付&quot;售后服务过程中客户的满意度。第四章：结论，根据以上研究过程和内容做出总结。</p>
+<h2 id="第二章-理论基础"><a class="header-anchor" href="#第二章-理论基础">¶</a>第二章 理论基础</h2>
+<h3 id="一、客户满意"><a class="header-anchor" href="#一、客户满意">¶</a>一、客户满意</h3>
+<h4 id="（一）客户满意概念"><a class="header-anchor" href="#（一）客户满意概念">¶</a>（一）客户满意概念</h4>
+<p>  客户满意是一种主观的感知，即客户对某一特定购买期望得到满足的程度。<br>
+  满意程度是客户感知效果和客户期望值的差异函数。若客户可感知效果低于期望，则客户不满；若客户可感知效果与期望相匹配，则客户满意；若客户可感知效果超过期望，则客户高度满意。因此，客户满意与否取决于客户在接受或服务之前的期望与其接受或服务之后的感知比较所产生的体验。</p>
+<h4 id="（二）客户满意的特征"><a class="header-anchor" href="#（二）客户满意的特征">¶</a>（二）客户满意的特征</h4>
+<p>  满意是一种主观感知，是客户对企业提供的或服务的内容的价值判断或评价，客户满意主要表现为以下几个特征。</p>
+<ol>
+<li>
+<p>主观性特征</p>
+<p>客户感受对象是客观的，但满意是建立在对或服务的体验之上的，所以，满意与否具有强烈的主观色彩。</p>
+</li>
+<li>
+<p>层次性特征</p>
+<p>客户满意是客户对企业提供的或服务的心理评价，这种评价是多层次的，同时也具有多重指标。</p>
+</li>
+<li>
+<p>动态性特征</p>
+<p>由于客户需求具有变化性，客户满意也会相应发生变化。</p>
+</li>
+</ol>
+<h3 id="二、客户满意度管理"><a class="header-anchor" href="#二、客户满意度管理">¶</a>二、客户满意度管理</h3>
+<h4 id="（一）客户满意度概念"><a class="header-anchor" href="#（一）客户满意度概念">¶</a>（一）客户满意度概念</h4>
+<p>  客户满意度，指客户在接受或购买某一服务时，客户感知的实际服务与客户期望中得到的服务的差值，客户满意度的公式体现为：客户满意度=客户信息感知-客户期望。</p>
+<p>  客户满意度意味着客户满意度很高，常用客户满意等级表示。客户满意等级指客户在购买或消费相应的或服务之后，心里产生的满足状态层次。心理教育学家研究认为，情感生活体验我们可以按梯级理论被划分成若干层次，相应地，可以把客户提供满意程度分成七个等级，它非常不满意，不满足，不满足，一般，满意，满意，非常满意。客户满意等级不是作为一个绝对概念，而是通过一个企业相对的概念，虽有等级之分，但界限较模糊。</p>
+<h4 id="（二）客户满意度管理的概念"><a class="header-anchor" href="#（二）客户满意度管理的概念">¶</a>（二）客户满意度管理的概念</h4>
+<p>  客户满意管理是指企业在生产活动中把客户满意作为管理的一个重要方面，运用各种有效的方式更好地留住顾客，创造更大的顾客价值。 以保持企业带来更多的利润和持续的竞争优势。同时，企业对客户服务满意度的追求，并不是盲目满足客户所有需求，而是通过企业最小的追逐成本去获得客户对企业服务的最大满意。</p>
+<h4 id="（三）提高客户满意度的三个基本方向"><a class="header-anchor" href="#（三）提高客户满意度的三个基本方向">¶</a>（三）提高客户满意度的三个基本方向</h4>
+<p>  从客户满意度的定义与公式&quot;客户满意度=客户感知-客户期望&quot;中，我们可以得出一个客户满意度管理模型。</p>
+<p><img src="https://7.dusays.com/2020/11/05/263b27f67e4db.jpg" alt=" 图2-1 客户满意度管理模型"></p>
+<p>  从图2-1 客户满意度管理模型中，可以直观看出，降低客户期望，提高客户感知，妥善处理客户抱怨是提高客户满意度三个基本方向。</p>
+<ol>
+<li>
+<p>降低客户期望的原则</p>
+<p>①对客户过高的期望值表示理解，并为客户提供更多信息和解决方案，在双方理解的基础上相应降低客户的期望。</p>
+<p>②少承诺多办事，企业的承诺对于客户来说是一个期望，办不到的事千万别承诺。</p>
+<p>③客户的高期望要求不能满足时，不要生硬拒绝，要阐明理由，获得客户理解。</p>
+</li>
+<li>
+<p>提高客户感知的指标</p>
+<p>客户的感知来源主要为客观指标与主观感受两方面。</p>
+<p>①客观指标，指项目质量，安全，进度，成本，等方面的硬性指标。</p>
+<p>②主观感受，指客户对项目实施的顺利程度与对交付人员态度等主观感知。</p>
+</li>
+<li>
+<p>正确处理客户抱怨</p>
+<p>当受到客观条件限制而不能满足客户需求或由于疏忽导致客户不满时，须正确面对客户的抱怨，妥善处理。</p>
+</li>
+</ol>
+<h3 id="三、相关理论基础"><a class="header-anchor" href="#三、相关理论基础">¶</a>三、相关理论基础</h3>
+<h4 id="（一）双因素模型"><a class="header-anchor" href="#（一）双因素模型">¶</a>（一）双因素模型</h4>
+<p>  客户满意的双因素模型是美国心理学家赫兹伯格的双因素理论又称&quot;激励保健理论（hygiene-motivational factors）&quot;在客户满意上的运用。根据该理论，影响客户满意的因素可分为两类不同的性质：一类是保健相关因素，另一类是激励影响因素。保健因素是客户所期望的，没有满足的话，客户就不满意；激励因素是企业提供给客户后能让客户感到愉悦和满意的因素。这两类因素对客户满意度的影响是不同的。保健因素是避免客户不满意的因素，激励因素是使客户满意度提高的因素。没有提供保健因素，客户会很不满意；提供后，客户只是没有不满意，而并不代表很满意。反过来，企业若提供了激励因素，客户会很满意；若没有提供激励因素，客户只是没有很满意而已，而不会不满意。企业在保健因素上无论做得如何出色，客户只是没有不满意而已，并不会有很高的满意度。客户没有得到激励因素也并不会对企业产生怨恨，只是会感到有些遗憾而已，而这并不会导致客户的不满意。</p>
+<p>  双因素理论对于客户满意度管理的启示是：第一，只有属于激励因素的需求得到满足才能激发起客户的满意，不是所有；第二，保健因素不满足时将引起客户强烈的不满，但满足后也不一定会让客户满意；第三，保证客户保健因素需求得到满足，适当提供激励因素满足，可保持较高的客户满意度。</p>
+<h4 id="（二）KANO模型"><a class="header-anchor" href="#（二）KANO模型">¶</a>（二）KANO模型</h4>
+<p>  受双因素理论的启发，日本管理学家加纳提出客户感知模型-KANO模型，KANO模型定义了客户需求三个层次：基本型需求、期望型需求和兴奋型需求，三种需求根据绩效指标分为基本因素、绩效因素和激励因素。</p>
+<ol>
+<li>基本型需求</li>
+</ol>
+<p>  基本型需求是客户对企业提供的服务基本技术要求。这是客户认为服务&quot;必须具有&quot;的属性或功能。当基本要求不能满足时，客户会很不满；当基本要求得到满足时，客户也不会表现出满意，只是没有不满意。例如，客户进行购买品牌桶装水，希望水是纯净的、水桶是洁净的且能送到自己家门口等。对于客户而言，这些需求是理所当然满足的。</p>
+<ol start="2">
+<li>期望型需求</li>
+</ol>
+<p>  期望型需求体现的是更舒适、更快、更好的因素，是客户的满意状况与需求的满足程度成比例关系的需求。企业提供或提供的服务水平越高，客户满意度就越高，反之亦然。如果这些需求没有被满足，客户就会感觉到失望；如果这些需求得到合理的满足，客户不会有什么感觉；但这些需求如果被满足得更好，客户就会增加满意度。譬如，客户通过电话订购桶装水，而桶装水通常是六个小时后送到的，如果时间拖延太久，客户就会抱怨；如果时间不快不慢，客户则不会有什么反应；如果在很短的时间内送达，客户就会高兴。</p>
+<ol start="3">
+<li>兴奋型需求</li>
+</ol>
+<p>  兴奋型需求是指客户期待之外的需求，不能满足这类需求，对客户不会产生任何的消极影响；兴奋型需求一旦得到满足，客户则会表现出满意的态度。对于兴奋型型需求，需求的满足会客户会满意，得不到有效满足时，客户也不会有明显的不满意。</p>
+<p>  KANO模型理论对客户满意度管理的启示是：面对众多的客户需求时，企业可将需求按照KANO模型进行成三个层次，对需求满足进行排序，优先满足客基本需求与期望需求，最后满足兴奋型需求，KANO模型理论可让企业的服务资源力量对客户满意度的管理上获得得到合理分配。</p>
+<h2 id="第三章-案例分析"><a class="header-anchor" href="#第三章-案例分析">¶</a>第三章 案例分析</h2>
+<h3 id="一、F公司的简介"><a class="header-anchor" href="#一、F公司的简介">¶</a>一、F公司的简介</h3>
+<p>  F公司从2001年成为华为信息技术服务合作伙伴，其业务涉及ICT技术服务、IT开发运维、信息系统集成、软件外包等。</p>
+<p>  作为华为公司的信息技术服务合作伙伴，F公司旗下的工程师在华为公司协助与共同管理下，负责对华为授权区域的ICT的售后服务。授权业务范围主要包括：企业级存储、企业服务器、路由交换设备、硬件维护、备件更换、工程类项目交付、现场技术支持、设备健康检查等现场服务。图3-1为客户购买华为工程类项目交付售后服务的流程图。客户首先向华为公司发起售后请求，要求进行进现场技术服务。华为公司收到客户请求，生成电子流，根据客户的区域范围、技术服务要求选则符合要求的合作伙伴公司，进行服务任务委派，要求合作伙伴公司准备对应资源的工程师，同时对委派任务与合作伙伴公司工程师进行监管。合作伙伴公司收到委托，根据要求提供现场技术服务。</p>
+<p><img src="https://7.dusays.com/2020/11/15/d42d3424b70c9.png" alt="图 3-1 F公司售后服务流程图"></p>
+<h3 id="二、-HD大学云计算数据中心项目售后服务过程"><a class="header-anchor" href="#二、-HD大学云计算数据中心项目售后服务过程">¶</a>二、 HD大学云计算数据中心项目售后服务过程</h3>
+<h4 id="（一）项目交付背景介绍"><a class="header-anchor" href="#（一）项目交付背景介绍">¶</a>（一）项目交付背景介绍</h4>
+<p>  在SZ市政府的大力支持下，HD大学进行智慧校园建设，使用云计算、虚拟化和移动互联网等新技术，以打造&quot;智慧校园&quot;为目标，以服务学校、服务学员、服务社会为方向，以深化应用、优化服务为核心，以业务协同、资源整合、信息共享为主线，打造统一、高效、智能的&quot;智慧校园&quot;。</p>
+<h4 id="（二）项目交付基本情况介绍"><a class="header-anchor" href="#（二）项目交付基本情况介绍">¶</a>（二）项目交付基本情况介绍</h4>
+<ol>
+<li>项目建设内容</li>
+</ol>
+<p>  本项目主要建设智慧校园的云数据中心的核心数据库、云存储、云主机和大数据平台，以及配备网络安全设备，通过建立核心业务系统的云计算基础架构，为校区教学和教务工作提供可靠高效的技术支撑平台。</p>
+<ol start="2">
+<li>交付模式介绍</li>
+</ol>
+<p>  HD大学通过投标选择华为公司的ICT产品，即使用华为的企业服务器、企业存储、路由交换设备、华为云计算产品方案，建设其智慧校园云数据中心。HD大学发起售后服务，再由华为委派到F公司，F公司派出工程师团队进行现场技术服务。</p>
+<ol start="3">
+<li>现场技术服务委托内容介绍</li>
+</ol>
+<p>  云数据中心的整体建设构成方案中，包括不限于华为云计算数据中心设备与软件，也有其他产商的设备软件，如深信服、绿盟、H5等，几家产商产品交织在一起，互相合作，组成了以华为云计算产品为核心的智慧校园云数据中心解决方案。华为售后现场技术服务的内容，根据客户下单委托服务条目执行，有指定性，并非所有现场华为产品。F公司工程师，根据华为委派时提供的BOQ（Bill of Quantity）,即工程量清单来获知现场技术服务委托内容。</p>
+<center>表3-1 售后现场技术服务内容</center>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>产品型号</th>
+<th>产品类型</th>
+<th style="text-align:center">数量</th>
+<th style="text-align:center">服务类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>OceanStor SNS2248</td>
+<td>交换机</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>RH2288HV3 大数据控制节点</td>
+<td>服务器</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>RH2288HV3备份服务器</td>
+<td>服务器</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>FusionCube 9000-机柜机箱套件</td>
+<td>服务器</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>FusionCube 9000-管理&amp;计算节点</td>
+<td>服务器</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>Kunlun 9008服务器</td>
+<td>服务器</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td>OceanStor 5300 V3存储</td>
+<td>存储</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td>OceanStor 18500 V3</td>
+<td>存储</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td>OceanStor 9000 V3R6 教学视频存储</td>
+<td>存储</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">硬件安装服务</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td>云计算-基础架构解决方案实施服务</td>
+<td>软件</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">规划实施服务</td>
+</tr>
+</tbody>
+</table>
+<h3 id="三、-项目交付的服务流程"><a class="header-anchor" href="#三、-项目交付的服务流程">¶</a>三、 项目交付的服务流程</h3>
+<h4 id="（一）全项目交付服务流程介绍"><a class="header-anchor" href="#（一）全项目交付服务流程介绍">¶</a>（一）全项目交付服务流程介绍</h4>
+<p>  云计算数据中心项目的建设，从有意向建设到真正落地，完整的项目流程，一般会经历规划设计、工程交付、运营维护三个阶段，包括集成规划、POC测试、集成设计、工程交付、集成验证、业务发放、数据迁移、系统验收、系统维护9个模块，9个模块，细分出22个实施步骤。对于技术服务公司来说，这22个实施步骤涵盖了项目从售前的需求调研拓展到售后的落地验收，是一个工程类项目的生命周期。</p>
+<p><img src="https://7.dusays.com/2020/11/15/9793f338fc848.png" alt="图3-2  项目交付流程图"></p>
+<h4 id="（二）HD大学的项目交付过程"><a class="header-anchor" href="#（二）HD大学的项目交付过程">¶</a>（二）HD大学的项目交付过程</h4>
+<p>  本文研究的是售后的服务阶段，HD大学的云数据中心项目建设从发起售后服务申请开始，到F公司委派工程师到现场将项目落地的过程，经历集成设计、工程交付、集成验证、业务发放、系统验收、系统维护，共6个阶段。包括详细方案LLD（low level design）详细设计、工程勘测、硬件安装与配置、软件暗转与调试、软件联调测试、集成方案验证设计、集成验证测试、业务发放部署、系统试运行、验收方案设计、验收测试、日常操作维护、工程交付与维护13个步骤。</p>
+<p><img src="https://7.dusays.com/2020/11/15/4ddcafa914439.png" alt="图3-3 HD大学云数据中心建设的项目流程"></p>
+<ol>
+<li>集成设计过程</li>
+</ol>
+<p>  规划设计过程是工程类项目售后服务最开始的阶段段，规划设计包括：</p>
+<p>  ① 现场资源调研、规划信息收集</p>
+<p>  （1）熟悉现场工作环境，包括作业位置、作业时间、注意事项、客户对接人。</p>
+<p>  （2）调研客户现有的网络，包括现存设备、网络拓扑、新旧数据中心关系。</p>
+<p>  （3）项目时间节点确认，包括开始、测试、业务联调、上线、验收。</p>
+<p>  （4）方案参数收集，包括设备&amp;线缆布置、IP要求、设备命名、容量需求。</p>
+<p>  ② 详细实施方案设计</p>
+<p>  （1）项目时间计划表排列，依照客户时间节点，排列倒推时间计划表。</p>
+<p>  （2）依照收集信息，进行实施方案的设计，输出初版售后实施方案。</p>
+<p>  （3）通过与客户进行沟通初版实施方案，确定了终稿实施方案，内容包括设备&amp;线缆部署位置、IP规划、设备命名规划、容量规划。</p>
+<ol start="2">
+<li>工程交付过程</li>
+</ol>
+<p>  ① 设备工程安装</p>
+<p>  （1）依照设备布放规划，将设备安装到对应位置。</p>
+<p>  （2）依照线缆布放规划，布置对应线缆。</p>
+<p>  ② 软件安装与调试</p>
+<p>  （1）依照规划参数，安装华为云计算平台相关软件。</p>
+<p>  （2）华为云计算平台各部件内调试。</p>
+<p>  ③ 进行软件联合调试测试，华为云计算平台各部件之间联合调试。</p>
+<ol start="3">
+<li>集成验证过程</li>
+</ol>
+<p>  ① 集成方案验证设计，集成验证方案制定，指华为云平台和其他产商设备、 现有业务应用的整体性验证方案，与客户共同定义验证策略，制定验证策略。</p>
+<p>  ② 集成验证测试，按照验证策略，进行集成验证测试，测验结果提交验证测试报告。</p>
+<ol start="4">
+<li>系统验收过程</li>
+</ol>
+<p>  ① 验收方案设计，结合产品功能与客户共同制定验收方案。</p>
+<p>  ② 验收测试</p>
+<p>  （1）根据验收方案，对平台进行验收项目的测试，输出验收测试报告。</p>
+<p>  （2）系统验收标志云计算中心建设完成，正式投放用户，上线使用。</p>
+<ol start="5">
+<li>系统维护过程</li>
+</ol>
+<p>  ① 日常操作维护，工程师针对客户进行日常操作维护与相关注意事项培训。</p>
+<p>  ② 工程交付与转维</p>
+<p>  （1）转交相关工程材料与云平台维护材料。</p>
+<p>  （2）客户接管平台的日常使用与维护。</p>
+<h3 id="四、HD大学项目交付过程的客户满意度问题"><a class="header-anchor" href="#四、HD大学项目交付过程的客户满意度问题">¶</a>四、HD大学项目交付过程的客户满意度问题</h3>
+<p>  根据上述HD大学的云数据中心项目的项目交付过程的6个服务模块13个服务步骤展开研究，结合客户满意度理论分析服务中存在的客户满意度管理问题。</p>
+<h4 id="（一）集成设计过程的客户满意度问题"><a class="header-anchor" href="#（一）集成设计过程的客户满意度问题">¶</a>（一）集成设计过程的客户满意度问题</h4>
+<p>  通过在集成设计过程与客户针对售后方案进行深度交流后发现以下问题：</p>
+<ol>
+<li>项目周期问题</li>
+</ol>
+<p>  客户对即将要交付的产品对交付周期低估，认为交付周期过长，产生不满情绪。</p>
+<ol start="2">
+<li>产品的功能性期待落差问题</li>
+</ol>
+<p>  由于对当前云平台技术的不了解，提出产品暂无法实现的功能性需求或较难实现的技术问题，,当被告知不能实现时，产生落差感。</p>
+<ol start="3">
+<li>管理资源占用多质疑</li>
+</ol>
+<p>  售前阶段未阐明华为云计算产品方案特性,在售后方案交流中，客户对管理资源的占用巨大表示出质疑。</p>
+<h4 id="（二）工程交付过程的客户满意度问题"><a class="header-anchor" href="#（二）工程交付过程的客户满意度问题">¶</a>（二）工程交付过程的客户满意度问题</h4>
+<ol>
+<li>上下电导致设备故障问题</li>
+</ol>
+<p>  在工程交付过程中，多台设备仅因为上下电导致设备故障，虽然已经更换设备，但客户强烈不满。</p>
+<ol start="2">
+<li>解决新产品需求问题</li>
+</ol>
+<p>  客户提出新的产品需求，客户希望售后团队可在本次实施中帮助其新增上这个需求，满足新增需求需耗费售后团队大量的时间与人力。</p>
+<ol start="3">
+<li>客户方工程师参与实施的要求</li>
+</ol>
+<p>  客户提出在项目实施过程中，一名客户方工程师全程参与学习实施过程，以便后续顺利的接管平台的日常使用与维护工作。</p>
+<ol start="4">
+<li>业务网络部署方式问题</li>
+</ol>
+<p>  客户对云计算平台使用EIP（elasticity IP）的业务网络部署方式不满，希望通过IP直通方式满足他们应用使用习惯。</p>
+<h4 id="（三）集成验证过程的客户满意度问题"><a class="header-anchor" href="#（三）集成验证过程的客户满意度问题">¶</a>（三）集成验证过程的客户满意度问题</h4>
+<ol>
+<li>云平台与F5兼容性问题</li>
+</ol>
+<p>  在集成验证过程中，遇到F5产商的负载均衡设备无法与华为云平台的虚拟机负载功能进行兼容问题，当前产品无法解决该问题。客户采购的F5的负载均衡设备目前无法使用，资源闲置，除F5兼容问题，云计算平台的其他核心功均验证正常实现。客户项目组网络科的老师对F5产品不能兼容的问题有较强不满情绪。针对兼容性问题与客户项目组系主任进行沟通交流，系主任认为由于云平台核心均能实现，F5兼容功能为非核心功能且后续可通过升级版本解决，对项目交付的整体情况较为满意，并同意在验证报告中签字。</p>
+<h4 id="（四）系统验收过程的客户满意度问题"><a class="header-anchor" href="#（四）系统验收过程的客户满意度问题">¶</a>（四）系统验收过程的客户满意度问题</h4>
+<ol>
+<li>综合布线界面争执问题</li>
+</ol>
+<p>  系统验收过程中，F公司售后团队与代理商共同进行项目验收。关于机房设备线缆的综合布线与整理的工作界面问题引发了争执。代理商认为工程安装中应该包含设备综合布线整理的服务，实际上工程安装不包含综合布线服务。</p>
+<h3 id="五、项目交付中客户满意度问题的优化措施"><a class="header-anchor" href="#五、项目交付中客户满意度问题的优化措施">¶</a>五、项目交付中客户满意度问题的优化措施</h3>
+<h4 id="（一）做好沟通管理"><a class="header-anchor" href="#（一）做好沟通管理">¶</a>（一）做好沟通管理</h4>
+<p>  对集成设计服务过程中：项目周期、产品的功能性期待落差、管理资源占用多的问题从客户满意度管理角度进行分析，3个客户抱怨问题有共性，即客户针对从售前阶或实际落地的方案的期待不一致。可增强通过沟通管理处理，通过合理的沟通，正确向客户阐明情况，得到客户理解。实施周期较长是因为项目较为复杂；功能性有些无法满足是因为技术暂不支持；资源占用较多，是为保障系统更高的可靠性和稳定性。</p>
+<p>  项目交付过程中，沟通起着重要作用，做好沟通管理可为项目交付减去很多麻烦，有助于了解客户期望，影响客户感知，并减少处理客户抱怨的难度。 沟通过程中，根据场景的不同注意使用不同的方式与技巧。</p>
+<ol>
+<li>沟通方式</li>
+</ol>
+<p>  使用沟通管理方式的差异，会使得沟通产生不同的效果，其中当面沟通方式效果最佳，电话语音沟通方式效果其次，文件沟通方式效果最差。在项目交付过程中应以面对面沟通为主，即使用文件沟通信息时，也可以先进行面对面方式或语音方式沟通，以免文件沟通方式信息传达不准确。</p>
+<ol start="2">
+<li>沟通技巧</li>
+</ol>
+<p>  ① 多角度及站在不同的角度看待问题，站在客户的角度思考问题，了解客户所思考的问题的出发点，有利于企业服务人员迅速找出解决问题的关键所在。</p>
+<p>  ② 多层面沟通，与客户方不同层面的人员进行交流，上到客户项目经理下到各个监督人员，全方面的了解不同层次的需求。</p>
+<p>  ③ 多时段沟通，除工作时间进行工作交流外，尽可能增加与客户交流的机会，增加彼此了解。</p>
+<h4 id="（二）善于分析客户期望"><a class="header-anchor" href="#（二）善于分析客户期望">¶</a>（二）善于分析客户期望</h4>
+<ol>
+<li>期望分析层次介绍</li>
+</ol>
+<p>  对于工程交付阶段碰到到4个问题，先与客户进行深层次交流与沟通，后根据KANO模型理论进行客户期望分析，找出客户真正的需求。如图4-1，对售后交付团队来说，要保证重点需求，满足合理需求，消除延伸需求，使售后服务资源的合理分配。</p>
+<p><img src="https://7.dusays.com/2020/11/15/8e52d226de6a8.png" alt="图4-1 客户需求层次图"></p>
+<ol start="2">
+<li>问题分析消除延伸需求</li>
+</ol>
+<p>  ① 上下电导致设备故障问题属于重点需求，这属于客户的保健因素，重点需求的问题会引起的客户严重的不满情绪，需要马上解决，除更换服务器后需要找出原因，需给客户合理的技术解释。</p>
+<p>  ② 客户方工程师参与实施与业务网络部署方式问题均属于合理需求，在保证重点需满足求前提下，满足客户合理需求。</p>
+<p>  ③ 对于新增产品需求问题，为客户延伸需求，虽可实现但耗时费力，消除延伸需求，不予满足。</p>
+<h4 id="（三）-客户满意度管理关键要素法"><a class="header-anchor" href="#（三）-客户满意度管理关键要素法">¶</a>（三） 客户满意度管理关键要素法</h4>
+<p>  对于云平台与F5兼容性问题进行分析，当项目中不可避免的且暂时无法通过现有手段解决的但未非核心的问题时，即便项目组中某些客户成员不认同，只获取客户项目组中关键的人物对事件的满意，既能把握项目交付的较高客户满意度。</p>
+<p>  项目交付过程中，因客观因素或既定暂时无法改变的因素，很难让所有的客户人员对我们的所有事情都满意。因此，售后服务人员需找到客户项目组中的关键人物，重点关注关键的人员和重要事的满意度情况，他们的满意度是项目交付整体满意的关键。</p>
+<h4 id="（四）展现良好态度"><a class="header-anchor" href="#（四）展现良好态度">¶</a>（四）展现良好态度</h4>
+<p>  对系统验收过程中综合布线界面争执问题分析，尽管综合布线非售后服务人员的服务范围的事情，合理向客户阐述合同界面。即便面对客户强压进行非合同界面的事情，也要心平气和，合理阐述界面问题，力求客户理解，要时刻展现好良好的态度，给客户良好感知。</p>
+<h4 id="（五）将客户当成同事"><a class="header-anchor" href="#（五）将客户当成同事">¶</a>（五）将客户当成同事</h4>
+<p>  在服务过程将客户当成同事，无论售后服务人员还是客户，从项目维度上来讲是一个整体团队，有着共同的目标，即顺利且高质量的完成项目。因此，在遇到项目共同的难题时，应以优先解决问题为目的，充分合作，使项目完满完成。</p>
+<h2 id="第四章-结论"><a class="header-anchor" href="#第四章-结论">¶</a>第四章 结论</h2>
+<p>  本文以F公司在HD大学实施&quot;工程类项目&quot;售后服务过程为对象，分析在项目交付过程中遇到的客户满意度的问题。针对这些问题根据客户满意度管理理论进行分析总结，提出了5个项目交付过程中可以提高客户满意的具体措施：做好沟通管理、善于分析客户期望、客户满意度管理关键要素法、始终展现良好态度、将客户当作同事。</p>
+<p>  客户满意度管理的具体措施在项目交付过程的合理应用，可在最大限度的减少项目团队与客户之间的冲突，增加客户对项目团队的信任感，为项目最终取得成功奠定基础。同时，客户满意度管理经验也随着公司项目交付团队过在项目交付中各环节所遇到问题被改进调整与总结，最后形成该公司独特的项目交付客户满意度管理模式，会对公司在未来越来越多的项目合作中发挥着重大作用。</p>
+<p>  最后，由于学生在专业知识的学习上还存在不足，也缺少客户关系管理工作方面的经验，对于 F公司在项目中中存在问题的研究可能还不太深入和完善，希望各位老师多提宝贵意见，学生在今后的学习中，一定努力钻研，继续提高。</p>
+<h2 id="参考文献"><a class="header-anchor" href="#参考文献">¶</a>参考文献</h2>
+<p>[1]张艳莉.客户满意度管理在工程项目中的应用研究[J].科协论坛：下半月,2012,(8):121-123. DOI:10.3969j.issn.1007-3973.2012.08.072.</p>
+<p>[2]曾康铭.2012年中国IT售后服务调查研究与设计[J].企业科技与发展,2012,(13):150-154. DOI:10.3969j.issn.1674-0688.2012.13.051.</p>
+<p>[3]陈全.基于客户满意度的L公司售后服务管理研究[D].上海:华东理工大学,2016.</p>
+<p>[4]刘雷,仲梁维,王庭辉.售后服务的信息化响应[J].企业管理,2013,(8):109-111. DOI:10.3969j.issn.1003-2320.2013.08.043.</p>
+<p>[5] 栾港.客户关系管理理论与应用（第2版）(M).人民邮电出版社有限公司,2019-10-01.100-110</p>
+<p>[6]李先国，曹献存.客户服务管理（第2版(M).清华大学出版社,2019-10-01.89-100</p>
+<p>[7]周玲,刘洪.员工工作满意度研究综述[C].管理科学与系统科学研究新进展–第8届全国青年管理科学与系统科学学术会议论文集.2005:13-20.</p>
+<p>[8]高学东,王艾.基于企业网络舆情的客户满意度分析及管理方法[J].运筹与管理,2020,29(7):232-239. DOI:10.12005orms.2020.0193.</p>
+<p>[9]康建宏,王海虹,苗佳等.人力资源管理的新趋势[J].现代商业,2017,(31):66-67.DOI:10.3969j.issn.1673-5889.2017.31.033.</p>
+<p>[10]邱彬,马田文,宋鹏等.试论激励在现代企业人力资源管理中的影响[J].人力资源管理,2017,(8):131-132.</p>
+<p>[11]肖静.论激励在现代企业人力资源管理中的作用[J].企业文化(中旬刊),2018,(1):151.</p>
+<p>[12]张泽群.A通讯公司人力资源管理改进研究[D].东华大学,2016.DOI:“”.</p>
+<p>[13]刘东佳.双因素理论在企业人力资源管理中的应用研究[J].中国集体经济,2017,(12):96-97.</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/" rel="tag"><i class="fa fa-tag"></i> 毕业论文</a>
+              <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/" rel="tag"><i class="fa fa-tag"></i> 工作总结</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E6%8A%8A%E4%BA%8B%E6%83%85%E5%81%9A%E7%B3%9F%E7%B3%95.html" rel="prev" title="把事情做糟糕">
+      <i class="fa fa-chevron-left"></i> 把事情做糟糕
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E8%8B%B1%E8%AF%AD%E5%9B%BD%E9%99%85%E9%9F%B3%E6%A0%87%E4%B8%8E%E8%87%AA%E7%84%B6%E6%8B%BC%E8%AF%BB.html" rel="next" title="英语国际音标与自然拼读">
+      英语国际音标与自然拼读 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一章-绪论"><span class="nav-number">1.</span> <span class="nav-text">第一章 绪论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、研究背景"><span class="nav-number">1.1.</span> <span class="nav-text">一、研究背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、研究意义"><span class="nav-number">1.2.</span> <span class="nav-text">二、研究意义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、研究方法"><span class="nav-number">1.3.</span> <span class="nav-text">三、研究方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）个案法"><span class="nav-number">1.3.1.</span> <span class="nav-text">（一）个案法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）文献研究法"><span class="nav-number">1.3.2.</span> <span class="nav-text">（二）文献研究法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、研究内容"><span class="nav-number">1.4.</span> <span class="nav-text">四、研究内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二章-理论基础"><span class="nav-number">2.</span> <span class="nav-text">第二章 理论基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、客户满意"><span class="nav-number">2.1.</span> <span class="nav-text">一、客户满意</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）客户满意概念"><span class="nav-number">2.1.1.</span> <span class="nav-text">（一）客户满意概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）客户满意的特征"><span class="nav-number">2.1.2.</span> <span class="nav-text">（二）客户满意的特征</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、客户满意度管理"><span class="nav-number">2.2.</span> <span class="nav-text">二、客户满意度管理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）客户满意度概念"><span class="nav-number">2.2.1.</span> <span class="nav-text">（一）客户满意度概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）客户满意度管理的概念"><span class="nav-number">2.2.2.</span> <span class="nav-text">（二）客户满意度管理的概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（三）提高客户满意度的三个基本方向"><span class="nav-number">2.2.3.</span> <span class="nav-text">（三）提高客户满意度的三个基本方向</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、相关理论基础"><span class="nav-number">2.3.</span> <span class="nav-text">三、相关理论基础</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）双因素模型"><span class="nav-number">2.3.1.</span> <span class="nav-text">（一）双因素模型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）KANO模型"><span class="nav-number">2.3.2.</span> <span class="nav-text">（二）KANO模型</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三章-案例分析"><span class="nav-number">3.</span> <span class="nav-text">第三章 案例分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、F公司的简介"><span class="nav-number">3.1.</span> <span class="nav-text">一、F公司的简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、-HD大学云计算数据中心项目售后服务过程"><span class="nav-number">3.2.</span> <span class="nav-text">二、 HD大学云计算数据中心项目售后服务过程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）项目交付背景介绍"><span class="nav-number">3.2.1.</span> <span class="nav-text">（一）项目交付背景介绍</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）项目交付基本情况介绍"><span class="nav-number">3.2.2.</span> <span class="nav-text">（二）项目交付基本情况介绍</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、-项目交付的服务流程"><span class="nav-number">3.3.</span> <span class="nav-text">三、 项目交付的服务流程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）全项目交付服务流程介绍"><span class="nav-number">3.3.1.</span> <span class="nav-text">（一）全项目交付服务流程介绍</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）HD大学的项目交付过程"><span class="nav-number">3.3.2.</span> <span class="nav-text">（二）HD大学的项目交付过程</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、HD大学项目交付过程的客户满意度问题"><span class="nav-number">3.4.</span> <span class="nav-text">四、HD大学项目交付过程的客户满意度问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）集成设计过程的客户满意度问题"><span class="nav-number">3.4.1.</span> <span class="nav-text">（一）集成设计过程的客户满意度问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）工程交付过程的客户满意度问题"><span class="nav-number">3.4.2.</span> <span class="nav-text">（二）工程交付过程的客户满意度问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（三）集成验证过程的客户满意度问题"><span class="nav-number">3.4.3.</span> <span class="nav-text">（三）集成验证过程的客户满意度问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（四）系统验收过程的客户满意度问题"><span class="nav-number">3.4.4.</span> <span class="nav-text">（四）系统验收过程的客户满意度问题</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、项目交付中客户满意度问题的优化措施"><span class="nav-number">3.5.</span> <span class="nav-text">五、项目交付中客户满意度问题的优化措施</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）做好沟通管理"><span class="nav-number">3.5.1.</span> <span class="nav-text">（一）做好沟通管理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）善于分析客户期望"><span class="nav-number">3.5.2.</span> <span class="nav-text">（二）善于分析客户期望</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（三）-客户满意度管理关键要素法"><span class="nav-number">3.5.3.</span> <span class="nav-text">（三） 客户满意度管理关键要素法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（四）展现良好态度"><span class="nav-number">3.5.4.</span> <span class="nav-text">（四）展现良好态度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（五）将客户当成同事"><span class="nav-number">3.5.5.</span> <span class="nav-text">（五）将客户当成同事</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四章-结论"><span class="nav-number">4.</span> <span class="nav-text">第四章 结论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考文献"><span class="nav-number">5.</span> <span class="nav-text">参考文献</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="whlshdw"
+      src="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/avatars/1.png">
+  <p class="site-author-name" itemprop="name">whlshdw</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">23</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/sthwhl" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;sthwhl" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:sthwhl@outlook.com" title="E-Mail → mailto:sthwhl@outlook.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/qumuzh" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;qumuzh" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.me/qumuzh" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;qumuzh" rel="noopener" target="_blank"><i class="fa fa-fw fa-telegram"></i>Telegram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i>RSS</a>
+      </span>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">whlshdw</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">84k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">2:20</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://whlshdw.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: {page: {
+            url: "https://whlshdw.github.io/%E5%85%B6%E5%AE%83%E5%88%86%E4%BA%AB/%E5%AE%A2%E6%88%B7%E6%BB%A1%E6%84%8F%E5%BA%A6%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.html",
+            identifier: "其它分享/客户满意度管理研究.html",
+            title: "客户满意度管理研究"
+          }
+        }
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://whlshdw.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>

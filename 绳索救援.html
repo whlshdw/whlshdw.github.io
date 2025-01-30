@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/medias/logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/medias/logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/medias/logo.svg">
+  <link rel="mask-icon" href="/medias/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://whlshdw.github.io').hostname,
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"default"},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"buttons","active":null,"storage":true,"lazyload":true,"nav":{"disqus":{"text":"Load Disqus","order":-1}}},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":false,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="后面再整理这块&#x2F;&#x2F; 20230704  ¶SRT常用救援系统图解 横渡系统 横渡系统的坡度问题：  增加安全余量，提高系统安全性。  有坡度的横渡系统的夹角效应比水平的夹角效应大，无论锚点两边高差多少，都是计算铅垂线方向的夹角？？？？何为铅垂线方向-笔记本。坡度越大受力情况越好，安全余量越好。  可以简化系统  当有横渡系统有坡度时，起始点高位，结束点地位，自重可以帮助滑动，只需要一遍释放，一遍">
+<meta property="og:type" content="article">
+<meta property="og:title" content="绳索救援">
+<meta property="og:url" content="https://whlshdw.github.io/%E7%BB%B3%E7%B4%A2%E6%95%91%E6%8F%B4.html">
+<meta property="og:site_name" content="Nautilus">
+<meta property="og:description" content="后面再整理这块&#x2F;&#x2F; 20230704  ¶SRT常用救援系统图解 横渡系统 横渡系统的坡度问题：  增加安全余量，提高系统安全性。  有坡度的横渡系统的夹角效应比水平的夹角效应大，无论锚点两边高差多少，都是计算铅垂线方向的夹角？？？？何为铅垂线方向-笔记本。坡度越大受力情况越好，安全余量越好。  可以简化系统  当有横渡系统有坡度时，起始点高位，结束点地位，自重可以帮助滑动，只需要一遍释放，一遍">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-11-04T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-01-30T04:22:09.553Z">
+<meta property="article:author" content="whlshdw">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="绳索">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://whlshdw.github.io/%E7%BB%B3%E7%B4%A2%E6%95%91%E6%8F%B4.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>绳索救援 | Nautilus</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="Nautilus" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+
+
+<a href="https://github.com/sthwhl" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>	
+	
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nautilus</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-links">
+
+    <a href="/links/" rel="section"><i class="fa fa-fw fa-link"></i>Links</a>
+
+  </li>
+        <li class="menu-item menu-item-books">
+
+    <a href="https://sthwhl.github.io/books" rel="noopener" target="_blank"><i class="fa fa-fw fa-book"></i>Books</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-artitalk">
+
+    <a href="/artitalk" rel="section"><i class="fa fa-fw fa-edit"></i>Artitalk</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://whlshdw.github.io/%E7%BB%B3%E7%B4%A2%E6%95%91%E6%8F%B4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/avatars/1.png">
+      <meta itemprop="name" content="whlshdw">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nautilus">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          绳索救援
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-11-05 2021-11-05T00:00:00+08:00" itemprop="dateCreated datePublished" datetime="2021-11-05T00:00:00+08:00">2021-11-05</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%88%B7%E5%A4%96%E8%BF%90%E5%8A%A8/" itemprop="url" rel="index">
+                    <span itemprop="name">户外运动</span>
+                  </a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/%E7%BB%B3%E7%B4%A2%E6%95%91%E6%8F%B4.html#comments" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="绳索救援.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>749</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<p>后面再整理这块// 20230704</p>
+</blockquote>
+<h3 id="SRT常用救援系统图解"><a class="header-anchor" href="#SRT常用救援系统图解">¶</a>SRT常用救援系统图解</h3>
+<p><code>横渡系统</code></p>
+<p>横渡系统的坡度问题：</p>
+<ol>
+<li>增加安全余量，提高系统安全性。</li>
+</ol>
+<p>有坡度的横渡系统的夹角效应比水平的夹角效应大，无论锚点两边高差多少，都是计算铅垂线方向的夹角？？？？何为铅垂线方向-笔记本。坡度越大受力情况越好，安全余量越好。</p>
+<ol start="2">
+<li>可以简化系统</li>
+</ol>
+<p>当有横渡系统有坡度时，起始点高位，结束点地位，自重可以帮助滑动，只需要一遍释放，一遍安排操作人员，另一边只需要安排建立保护站人员，绳桥（绷紧绳）、牵引绳只需一边部署即可。若起点地位，结束点高位依旧是往上转运也是一样。</p>
+<ol start="3">
+<li>
+<p>坡度大小问题</p>
+<p>坡度是高低位锚点的连线与水平线的夹角，如果两个锚点之间的连线小于15度，需要在重物的两端都需要牵引绳，若无担架可能会停在中间过不去。单坡度大于15度，只需单边有牵引线，坡度足够自身下滑。</p>
+</li>
+</ol>
+<p>横渡系统需要绷多紧问题（近空高）：</p>
+<ol>
+<li>横渡绷紧是为了获得净空高（净空高只的是担架离地的高度）</li>
+<li>绷多紧需要怎么绷是一个经验值</li>
+<li>绷横渡的边际效应递减原理，在横渡绷紧到一定程度承重后，继续绷紧横渡，重物始终停留在一定高度，无法继续获得净空高</li>
+</ol>
+<p>SRT绷横渡的器材</p>
+<ol>
+<li>主绳：2-3条 足够长度</li>
+<li>保护站短绳 3-4条 保护站，3m或者5m，A类绳或者动力绳的单绳（查找动力绳的资料 单绳、半绳、双绳）</li>
+<li>主锁：5-8个</li>
+<li>滑轮：2-4个</li>
+<li>人员：2-4</li>
+</ol>
+<p>SRT如何将担架放入横渡的绳桥拉上高空</p>
+<ol>
+<li>先绷紧横渡，再用配重提拉将担架拉上高空，释放横渡落地</li>
+<li>先将担架连接横渡绳桥，再进行绷紧横渡，释放横渡落地</li>
+</ol>
+<p><code>滑轮组系统</code></p>
+<ol>
+<li>拖拉滑轮组</li>
+<li>张紧滑轮组</li>
+</ol>
+<p><code>配重提拉</code></p>
+<ol>
+<li>垂直方向配重提拉</li>
+<li>有坡度的配重提拉更加轻松，因为提拉的不是重物的全部体重</li>
+</ol>
+<p><code>人体锚点</code></p>
+<ol>
+<li>固定锚点</li>
+<li>偏移锚点，用于有下坡的救援场景，为防止担架与岩壁摩擦，操作手圆环下端连接滑轮装入配重绳，使得配重绳偏移不摩擦岩壁</li>
+</ol>
+<p><code>释重装置</code></p>
+<p><code>张弛系统</code></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+              <a href="/tags/%E7%BB%B3%E7%B4%A2/" rel="tag"><i class="fa fa-tag"></i> 绳索</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/%E7%BB%B3%E7%B4%A2%E6%BA%AA%E9%99%8D.html" rel="prev" title="初见绳索">
+      <i class="fa fa-chevron-left"></i> 初见绳索
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/%E7%BB%B3%E7%B4%A2%E6%8E%A2%E6%B4%9E.html" rel="next" title="绳索探洞">
+      绳索探洞 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#SRT常用救援系统图解"><span class="nav-number">1.</span> <span class="nav-text">SRT常用救援系统图解</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="whlshdw"
+      src="https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/avatars/1.png">
+  <p class="site-author-name" itemprop="name">whlshdw</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">23</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/sthwhl" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;sthwhl" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:sthwhl@outlook.com" title="E-Mail → mailto:sthwhl@outlook.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/qumuzh" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;qumuzh" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.me/qumuzh" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;qumuzh" rel="noopener" target="_blank"><i class="fa fa-fw fa-telegram"></i>Telegram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i>RSS</a>
+      </span>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">whlshdw</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">84k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">2:20</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://whlshdw.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: {page: {
+            url: "https://whlshdw.github.io/%E7%BB%B3%E7%B4%A2%E6%95%91%E6%8F%B4.html",
+            identifier: "绳索救援.html",
+            title: "绳索救援"
+          }
+        }
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://whlshdw.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>
